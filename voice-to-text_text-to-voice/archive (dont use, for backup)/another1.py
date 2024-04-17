@@ -1,12 +1,12 @@
 from flask import Flask, render_template, request, jsonify
 from openai import OpenAI
 
-client = OpenAI(api_key='')
+
 
 app = Flask(__name__)
 
 # Configure OpenAI API key
-
+client = OpenAI(api_key='')
 # Function to get response from ChatGPT
 def send_message(message):
     response = client.chat.completions.create(model="gpt-3.5-turbo",
