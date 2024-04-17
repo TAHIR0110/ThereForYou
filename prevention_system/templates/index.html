@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Example</title>
+</head>
+<body>
+
+<script>
+    // Make a request to your Flask backend
+    fetch('http://127.0.0.1:5000/api/endpoint')
+    .then(response => response.json())
+    .then(data => {
+        // Extract the message from the response
+        const message = data.message;
+
+        // Display an alert with the message
+        alert(message);
+    })
+    .catch(error => {
+        // Optionally handle the error silently or display a message to the user
+        console.error('Error:', error);
+        // Example: Display a message to the user
+        alert('An error occurred while fetching data.');
+    });
+</script>
+
+</body>
+</html>
