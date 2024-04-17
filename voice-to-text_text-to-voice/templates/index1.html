@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Mast Chatbot</title>
+</head>
+<body>
+    <div>
+        <h1>Mast chatbot</h1>
+        <p id="transcription"></p>
+        <audio id="speechAudio" controls style="display: none;"></audio>
+        <button id="recordButton" onclick="startRecording()">Record</button>
+        <!-- <button id="stopButton" onclick="stopRecording()" disabled>Stop</button> -->
+    </div>
+
+    
+    <script>
+        window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
+        const recognition = new SpeechRecognition();
+        recognition.interimResults = true;
+        
+        let pTranscription = document.getElementById('transcription');
+        let audio = document.getElementById('speechAudio');
+        
+        let transcriptionText = '';
+
+        recognition.addEventListener('result', e => {
+            const transcript = Array.from(e.results)
+                .map(result => result[0])
+                .map(result => result.transcript)
+                .join('');
+                
+            pTranscription.textContent = transcript;
+            if (e.results[0].isFinal) {
+                transcriptionText += transcript + ' ';
+            }
+        });
+        
+        recognition.addEventListener('end', () => {
+            if (recording) {
+                saveTranscription(transcriptionText);
+                transcriptionText = '';
+                stopRecording();
+            }
+        });
+
+        let recording = false;
+
+        function startRecording() {
+            recognition.start();
+            recording = true;
+            document.getElementById('recordButton').disabled = true;
+            document.getElementById('stopButton').disabled = false;
+        }
+
+        function stopRecording() {
+            recognition.stop();
+            recording = false;
+            document.getElementById('recordButton').disabled = false;
+            document.getElementById('stopButton').disabled = true;
+        }
+
+        function saveTranscription(text) {
+            fetch('/save-transcription', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ transcription: text })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                pTranscription.textContent = "Botify: " + data.chat_response;
+                audio.src = data.audio_url;
+                audio.play();
+            })
+            .catch(error => console.error('Error saving transcription:', error));
+        }
+
+        function saveTranscription(text) {
+    fetch('/save-transcription', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ transcription: text })
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        pTranscription.textContent = "Botify: " + data.chat_response;
+        audio.src = data.audio_url;
+        audio.play();
+
+        // Check if sadness flag is true, trigger alert
+        if (data.sadness_flag) {
+            alert("User is sad");
+        }
+    })
+    .catch(error => console.error('Error saving transcription:', error));
+}
+
+    </script>
+</body>
+</html>

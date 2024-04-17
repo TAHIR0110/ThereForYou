@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bkl</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <h1>BKL</h1>
+    <p id="transcription"></p>
+    <button id="recordButton" onclick="startRecording()">Record</button>
+    <button id="stopButton" onclick="stopRecording()" disabled>Stop</button>
+    <audio id="speechAudio" controls></audio>
+
+<script>
+    window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
+    const recognition = new SpeechRecognition();
+    recognition.interimResults = true;
+    
+    let pTranscription = document.getElementById('transcription');
+    let audio = document.getElementById('speechAudio');
+    
+    let transcriptionText = '';
+
+    recognition.addEventListener('result', e => {
+        const transcript = Array.from(e.results)
+            .map(result => result[0])
+            .map(result => result.transcript)
+            .join('');
+            
+        pTranscription.textContent = transcript;
+        if (e.results[0].isFinal) {
+            transcriptionText += transcript + ' ';
+        }
+    });
+    
+    recognition.addEventListener('end', () => {
+        if (recording) {
+            saveTranscription(transcriptionText);
+            transcriptionText = '';
+            stopRecording();
+        }
+    });
+
+    let recording = false;
+
+    function startRecording() {
+        recognition.start();
+        recording = true;
+        document.getElementById('recordButton').disabled = true;
+        document.getElementById('stopButton').disabled = false;
+    }
+
+    function stopRecording() {
+        recognition.stop();
+        recording = false;
+        document.getElementById('recordButton').disabled = false;
+        document.getElementById('stopButton').disabled = true;
+    }
+
+    function playAudio(audioUrl) {
+    var audio = document.getElementById('speechAudio');
+    audio.src = audioUrl; // Set the audio source to the provided URL
+    audio.load(); // Reload the audio element to ensure the new source is applied
+    audio.play(); // Play the audio
+}
+
+
+
+    // Function to send transcription to server and receive response
+    function saveTranscription(transcription) {
+        $.ajax({
+            url: '/save-transcription',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({ transcription: transcription }),
+            success: function(response) {
+                // Play the received audio
+                playAudio(response.audio_url);
+            },
+            error: function(error) {
+                console.error('Error:', error);
+            }
+        });
+    }
+
+</script>
+
+</body>
+</html>

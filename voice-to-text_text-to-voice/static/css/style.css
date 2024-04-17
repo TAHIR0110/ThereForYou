@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'lexend';
+    color: #333;
+}
+
+#waveCanvas {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+
+#transcription {
+    font-family: 'varela round';
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#speechAudio {
+    display: none;
+}
+
+#recordButton,
+#stopButton {
+    border: none;
+    background-color: #4ade80;
+    color: black;
+    border-radius: 12px;
+    font-family: 'varela round';
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#stopButton {
+    background-color: #dc3545;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.console{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .console {
+        width: 80%;
+    }
+    
+}

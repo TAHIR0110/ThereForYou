@@ -1,0 +1,8 @@
+google-cloud-speech
+SpeechRecognition
+openai
+pyaudio
+pathlib
+vaderSentiment
+tensorflow
+keras
