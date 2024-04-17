@@ -13,7 +13,7 @@ def analyze_sentiment(text):
     return sentiment_score['compound']
 
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='your_api_key')
 
 app = Flask(__name__)
 

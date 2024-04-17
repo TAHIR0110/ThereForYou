@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='')
 
 
 response = client.audio.speech.create(
