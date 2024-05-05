@@ -4,5 +4,5 @@
 ![GSSoC Logo Dark](https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only)
 
 <div align="center">
-  <img src="https://socialify.git.ci/TAHIR0110/ThereForYou/image?language=1&name=1&pattern=Plus&theme=Auto" alt="ThereForYou" width="640" height="320" />
+  <img src="https://socialify.git.ci/TAHIR0110/ThereForYou/image?language=1&name=1&pattern=Plus&theme=Auto" alt="ThereForYou" width="720" height="320" />
 </div>
