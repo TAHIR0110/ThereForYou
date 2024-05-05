@@ -8,7 +8,7 @@
 </div>
 
 # Enhanced Public Safety: ThereForYou
-**ThereForYou** presents a groundbreaking solution aimed at enhancing public safety, particularly focusing on mental health support and suicide prevention. Leveraging cutting-edge technologies such as artificial intelligence (AI), machine learning (ML), natural language processing (NLP), and blockchain, our project offers accessible and empathetic assistance to individuals facing mental health challenges.
+**ThereForYou** is a groundbreaking solution aimed at enhancing public safety, particularly focusing on mental health support and suicide prevention. Leveraging cutting-edge technologies such as artificial intelligence (AI), machine learning (ML), natural language processing (NLP), and blockchain, our project offers accessible and empathetic assistance to individuals facing mental health challenges.
 
 ## Key Features
 ### Part 1: AI Psychologist
