@@ -17,7 +17,7 @@
 - Empathetic Support: In moments of distress, sadness, or depression, the AI psychologist offers empathetic support and practical advice to encourage users towards positive steps forward.
 
 ### Part 2: Suicide Prevention Model
-- Choking Detection: We have developed an API powered by advanced machine learning models that can detect signs of choking in users. Upon detection, it immediately sends alerts with location data of the victim to nearby users and authorities, including police officers, ensuring prompt assistance in critical situations.
+- Choking Detection: We have developed an API powered by advanced machine learning models that can detect signs of choking in users. Upon detection, it immediately sends alerts with the location data of the victim to nearby users and authorities, including police officers, ensuring prompt assistance in critical situations.
 - Reward System: Users who assist individuals in choking incidents are rewarded with HealthTokens, redeemable at hospitals. This incentivizes community involvement in assisting those in need.
 
 ### Part 3: Voice-Activated Safety Alert System
@@ -31,8 +31,8 @@
 1. Headover to [release](https://github.com/Atharv714/nationalhackathon/releases) section of github, and download `app-armeabi-v7a-release1.apk`.
 2. Login into the app and give it the necessary permissions
 3. Now to use the Voice Activated Safety System, click => https://vhelp.onrender.com/
-4. Press record button, and our NLP model will predict if the victim is in danger or not
-5. If danger is detected you will see notification on your mobile, with victim's location
+4. Press the record button, and our NLP model will predict if the victim is in danger or not
+5. If danger is detected you will see a notification on your mobile, with the victim's location
 
 ## Videos:
 ### PART 1:
