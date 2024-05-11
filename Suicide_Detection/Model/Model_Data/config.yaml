@@ -1,0 +1,6 @@
+names:
+  0: rope
+path: D:\Projects\Open Source\ThereForYou\ThereForYou\Suicide_Detection\Model\Datasets\Processed
+test: test/images
+train: train/images
+val: val/images
