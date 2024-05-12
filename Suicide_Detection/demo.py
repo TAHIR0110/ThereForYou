@@ -15,13 +15,17 @@ if __name__ == '__main__':
         frame = cv2.flip(frame, 1)
 
         # Face
-        detect.face_detection(frame, w, h)
+        face_box = detect.face_detection(frame, w, h)
         
         # Hands
-        detect.hand_detection(frame, w, h)
+        hands_box = detect.hand_detection(frame, w, h)
         
         # Rope
-        detect.rope_detection(frame, (w, h))
+        rope_box = detect.rope_detection(frame, (w, h))
+
+        # Add text
+        txt = detect.suicide_prevention(rope_box, face_box, hands_box)
+        cv2.putText(frame, txt, (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 1, cv2.LINE_AA)
 
         cv2.imshow('Cam', frame)
 
