@@ -165,3 +165,7 @@ Model/Model_Train.py
 Model/rope-detection.ipynb
 Model/Model_Data/logs/backup.txt
 yolov8n.pt
+
+Model/Model_Data/logs/runs/detect/SuicideDetection/*
+
+!Model/Model_Data/logs/runs/detect/SuicideDetection/weights
