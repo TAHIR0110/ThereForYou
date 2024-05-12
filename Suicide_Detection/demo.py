@@ -51,10 +51,10 @@ if __name__ == '__main__':
             for box in b:
                 if box.any():
                     _x, _y, _w, _h = box
-                    x1 = round(_x)
-                    y1 = round(_y)
-                    wo = round(_w)
-                    ho = round(_h)
+                    x1 = round(_x * w)
+                    y1 = round(_y * h)
+                    wo = round(_w * w)
+                    ho = round(_h * h)
 
                 cv2.rectangle(frame, (x1, y1), (x1 + wo, y1 + ho), (255, 0, 0), 2)
 
