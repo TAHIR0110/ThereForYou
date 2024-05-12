@@ -50,3 +50,31 @@ https://github.com/Atharv714/nationalhackathon/assets/142321494/8de7ae5d-30b6-48
 - PyAudio
 - Node.js
 - Firebase
+
+  # Steps for contributing
+1. **Fork and Clone the Repository:-**
+   To get started with contributing to our project, fork the repo and then clone it to your local machine:
+   ```bash
+   git clone https://github.com/TAHIR0110/ThereForYou.git
+   ```
+
+
+
+2. **Make Your Changes:-**
+       Make the necessary modifications or additions to the project files.Add new features to the project.
+
+3. **Commit and Push:-**
+   Once you've made your changes, commit them and push to your fork:
+   ```bash
+   git add .
+   git commit -m "Describe your changes here"
+   git push
+   ```
+
+4. **Create a Pull Request:-**
+   Navigate back to the original repository and open a pull request from your forked repository.
+
+
+  ### HAPPY CONTRIBUTING ❤
+
+
