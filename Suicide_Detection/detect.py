@@ -31,3 +31,15 @@ def detect(model, image):
     )
 
     return results
+
+
+def main(image):
+    '''Processed output for the detection'''
+
+
+    model = load_model()
+    results = detect(model, image)
+
+    boxes = [r.boxes.cpu().numpy().xywhn for r in results]
+
+    return boxes
