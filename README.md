@@ -38,7 +38,7 @@ https://github.com/Atharv714/nationalhackathon/assets/142321494/8de7ae5d-30b6-48
 ## Machine Learning 
 - TensorFlow
 - Natural language processing
-- Scikit-learn
+- Scikit-learn 
 - SpaCy
 - NLTK
 - OpenCV
