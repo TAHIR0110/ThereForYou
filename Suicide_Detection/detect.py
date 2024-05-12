@@ -13,15 +13,13 @@ def load_model():
     return model
 
 
-def detect(model, image):
+def detect(model, image, image_size):
     '''Detects objects in the image'''
-
-    image = cv2.resize(image, (640, 640))
 
     results = model.predict(
         source=image,
         verbose=False,
-        imgsz=(640, 640),
+        imgsz=image_size,
         conf=0.5,
         iou=0.7,
         save=False,
@@ -34,12 +32,12 @@ def detect(model, image):
     return results
 
 
-def main(image):
+def main(image, image_size):
     '''Processed output for the detection'''
 
 
     model = load_model()
-    results = detect(model, image)
+    results = detect(model, image, image_size)
 
     boxes = [r.boxes.cpu().numpy().xywhn for r in results]
 
