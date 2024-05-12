@@ -162,10 +162,14 @@ cython_debug/
 Model/Datasets
 
 Model/Model_Train.py
-Model/rope-detection.ipynb
 Model/Model_Data/logs/backup.txt
 yolov8n.pt
 
+Model/rope-detection-640.ipynb
+Model/rope-detection-480.ipynb
+
 Model/Model_Data/logs/runs/detect/SuicideDetection/*
+Model/Model_Data/logs/runs/detect/SuicideDetection2/*
 
 !Model/Model_Data/logs/runs/detect/SuicideDetection/weights
+!Model/Model_Data/logs/runs/detect/SuicideDetection2/weights
