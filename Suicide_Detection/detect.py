@@ -20,6 +20,7 @@ def detect(model, image):
 
     results = model.predict(
         source=image,
+        verbose=False,
         imgsz=(640, 640),
         conf=0.5,
         iou=0.7,
