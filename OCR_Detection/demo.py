@@ -2,6 +2,26 @@ import cv2
 import detect
 
 
+def mse(img1, img2):
+    '''
+    Calculates the Mean Squared Error between two images. In short, the lower the value, the more similar the images are.
+
+    Args:
+        img1: The first image.
+        img2: The second image.
+    
+    Returns:
+        mse: The mean squared error between the two images.
+    '''
+
+    h, w = img1.shape
+    diff = cv2.subtract(img1, img2)
+    err = np.sum(diff ** 2)
+    mse = err / (float(h * w))
+
+    return mse
+
+
 if __name__ == '__main__':
     vid = cv2.VideoCapture(0)
 
