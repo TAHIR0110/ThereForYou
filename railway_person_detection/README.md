@@ -25,7 +25,6 @@ This project aims to detect people in railway environments using YOLOv8, a state
     pip install -r requirements.txt
     ```
 
-3. Download pre-trained YOLOv8 model weights (`yolov8m.pt`) and place it in the project directory.
 
 ## Usage
 
