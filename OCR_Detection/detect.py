@@ -48,7 +48,7 @@ def process_data(frame, image_data, create=True):
 
                 cv2.rectangle(frame, top_left, bottom_right, (0, 255, 0), 2)
 
-                cv2.putText(frame, f'{text} - {int(prob) * 100}%', top_left, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                cv2.putText(frame, f'{text} - {int(prob * 100)}%', top_left, cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
             detected_text += text.strip() + " "
     
     return detected_text.strip().lower()
