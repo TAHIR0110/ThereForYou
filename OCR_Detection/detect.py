@@ -18,7 +18,7 @@ def detect_text(frame):
         image_data: The data of the image generated (bounding_box, text, confidence).
     '''
 
-    reader = easyocr.Reader(['en'], model_storage_directory=str(Path(__file__).resolve().parent / 'Model_Data'))
+    reader = easyocr.Reader(['en'], model_storage_directory=str(Path(__file__).resolve().parent / 'Model_Data'), verbose=False)
     image_data = reader.readtext(frame)
 
     return image_data
