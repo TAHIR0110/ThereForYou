@@ -19,7 +19,7 @@ def detect_text(frame):
     '''
 
     reader = easyocr.Reader(['en'], model_storage_directory=str(Path(__file__).resolve().parent / 'Model_Data'), verbose=False)
-    image_data = reader.readtext(frame)
+    image_data = reader.readtext(frame, paragraph=False)
 
     return image_data
 
