@@ -1,6 +1,24 @@
 import cv2
 import detect
 
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+def show_image(img, title='Image'):
+    '''
+    Displays an image.
+
+    Args:
+        img: The image to display.
+        title: The title of the window.
+    '''
+
+    plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+    plt.title(title)
+
+    plt.show()
+
 
 def mse(img1, img2):
     '''
@@ -23,18 +41,34 @@ def mse(img1, img2):
 
 
 if __name__ == '__main__':
+    prev_frame = None
+    err = 100
+    detected_text = ''
+
+    ERR_DIFF = 20
+
     vid = cv2.VideoCapture(0)
 
-    while True:
-        _, frame = vid.read()
+    try:
+        while True:
+            _, frame = vid.read()
 
-        image_data = detect.detect_text(frame)
-        detected_text = detect.process_data(frame, image_data)
+            if prev_frame is not None:
+                err = mse(cv2.cvtColor(prev_frame, cv2.COLOR_BGR2GRAY), cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY))
 
-        cv2.putText(frame, detected_text, (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1, cv2.LINE_AA)
+            if err > ERR_DIFF:
+                image_data = detect.detect_text(frame)
+                detected_text = detect.process_data(frame, image_data)
 
-        cv2.imshow('Cam', frame)
+            cv2.putText(frame, detected_text, (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1, cv2.LINE_AA)
 
-        if cv2.waitKey(1) & 0xFF == ord('q'): break # Exit when 'q' is pressed
-        if cv2.waitKey(1) == 27: break # Exit when 'ESC' is pressed
-        if cv2.getWindowProperty('Cam', cv2.WND_PROP_VISIBLE) < 1: break # Exit when window is closed
+            prev_frame = frame
+
+            if detected_text != '':
+                print(f'Text detected: {detected_text}')
+                show_image(frame)
+
+    except KeyboardInterrupt:
+        print('Exiting...')
+    finally:
+        vid.release()
