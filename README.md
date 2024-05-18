@@ -5,7 +5,7 @@
 
 <div align="center">
   <img src="https://socialify.git.ci/TAHIR0110/ThereForYou/image?language=1&name=1&pattern=Plus&theme=Auto" alt="ThereForYou" width="640" height="320" />
-</div>
+</div> 
 
 # Enhanced Public Safety: ThereForYou
 **ThereForYou** is a groundbreaking solution aimed at enhancing public safety, particularly focusing on mental health support and suicide prevention. Leveraging cutting-edge technologies such as artificial intelligence (AI), machine learning (ML), natural language processing (NLP), and blockchain, our project offers accessible and empathetic assistance to individuals facing mental health challenges.
