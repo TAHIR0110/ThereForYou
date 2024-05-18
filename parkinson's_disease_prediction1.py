@@ -22,16 +22,18 @@ import pickle
 import joblib
 import warnings
 warnings.filterwarnings("ignore")
-
+# Load the Parkinson's dataset
 parkinsons_data = pd.read_csv("https://raw.githubusercontent.com/Aaron246/parkinsight/main/parkinsons_dataset.csv")
 print(parkinsons_data.head(10))
 
 print(parkinsons_data.shape)
+# Check for missing values in the dataset
 print(parkinsons_data.isnull().sum())
 print(parkinsons_data.duplicated().sum())
 print(parkinsons_data.info())
 print(parkinsons_data.describe())
 
+# Visualize the distribution of the 'Status' column
 status_counts = parkinsons_data['Status'].value_counts()
 plt.figure(figsize=(8, 6))
 sns.barplot(x=status_counts.index, y=status_counts.values, palette="viridis")
@@ -41,9 +43,12 @@ plt.ylabel('Count')
 plt.xticks(rotation=0)
 plt.show()
 
+# Select important features for analysis
 important_features = ['MDVP:Jitter (%)', 'MDVP:Jitter (Abs)', 'MDVP:Shimmer', 'MDVP:Shimmer (dB)',
                       'MDVP:APQ', 'MDVP:PPQ', 'MDVP:Fo (Hz)', 'MDVP:Fhi (Hz)', 'MDVP:Flo (Hz)', 'HNR']
 important_features_dataset = parkinsons_data[important_features]
+
+# Visualize the relationship between important features using pairplot
 sns.pairplot(important_features_dataset, diag_kind='kde', palette='husl')
 plt.show()
 
@@ -57,7 +62,7 @@ for i, col in enumerate(parkinsons_data.columns[:-1]):
     plt.ylabel(col)
 plt.tight_layout()
 plt.show()
-
+# Define functions for outlier detection and replacement
 def replace_outliers(df):
     Q1 = df.quantile(0.25)
     Q3 = df.quantile(0.75)
@@ -84,9 +89,11 @@ numeric_columns = ['MDVP:Fo (Hz)', 'MDVP:Fhi (Hz)', 'MDVP:Flo (Hz)', 'MDVP:Jitte
                    'MDVP:APQ', 'Shimmer:DDA', 'HNR', 'NHR', 'DFA', 'Spread1',
                    'Spread2', 'PPE']
 
+# Check for outliers before replacing
 outliers_before = check_outliers(parkinsons_data[numeric_columns])
 print("\nOutliers before replacing:", outliers_before.sum())
 parkinsons_data[numeric_columns] = replace_outliers(parkinsons_data[numeric_columns])
+# Check for outliers after replacing
 outliers_after = check_outliers(parkinsons_data[numeric_columns])
 print("\nOutliers after replacing:", outliers_after.sum())
 
@@ -98,9 +105,12 @@ plt.yticks(rotation=0)
 plt.title('Correlation Heatmap')
 plt.show()
 
+# Split the dataset into features (X) and target variable (Y)
 X = parkinsons_data.drop(columns=['Status'], axis=1)
 Y = parkinsons_data['Status']
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42, stratify=Y)
+
+# Standardize features by scaling
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
@@ -109,6 +119,7 @@ pickle.dump(scaler, open(filename, 'wb'))
 print(X_train_scaled.shape)
 print(Y_train.shape)
 
+# Train Support Vector Machine (SVM) model
 svc_model = svm.SVC(kernel='linear', C=1)
 svc_model.fit(X_train_scaled, Y_train)
 y_pred = svc_model.predict(X_test_scaled)
@@ -118,6 +129,7 @@ svc_cls_report = classification_report(Y_test, y_pred)
 print("SVM Classification Report:\n", svc_cls_report)
 print("SVM Model Accuracy: {:.2f}%".format(svc_model_accuracy * 100))
 
+# Train Random Forest Classifier model
 rfc_model = RandomForestClassifier(n_estimators=100, random_state=42)
 rfc_model.fit(X_train_scaled, Y_train)
 y_pred = rfc_model.predict(X_test_scaled)
@@ -126,6 +138,7 @@ rfc_cls_report = classification_report(Y_test, y_pred)
 print("Random Forest Classification Report:\n", rfc_cls_report)
 print("Random Forest Model Accuracy: {:.2f}%".format(rfc_model_accuracy * 100))
 
+# Train Logistic Regression model
 logreg_model = LogisticRegression(random_state=42)
 logreg_model.fit(X_train_scaled, Y_train)
 y_pred = logreg_model.predict(X_test_scaled)
@@ -134,6 +147,7 @@ logreg_cls_report = classification_report(Y_test, y_pred)
 print("Logistic Regression Classification Report:\n", logreg_cls_report)
 print("Logistic Regression Model Accuracy: {:.2f}%".format(logreg_model_accuracy * 100))
 
+# Train XGBoost Classifier model
 xgb_model = XGBClassifier(random_state=42)
 xgb_model.fit(X_train_scaled, Y_train)
 y_pred = xgb_model.predict(X_test_scaled)
@@ -142,6 +156,7 @@ xgb_cls_report = classification_report(Y_test, y_pred)
 print("XGBoost Classification Report:\n", xgb_cls_report)
 print("XGBoost Model Accuracy: {:.2f}%".format(xgb_model_accuracy * 100))
 
+# Store model accuracies for comparison
 model_accuracies = {
     'SVM': svc_model_accuracy,
     'Random Forest': rfc_model_accuracy,
@@ -158,14 +173,14 @@ plt.show()
 
 # Hyperparameter Tuning for Random Forest
 from sklearn.model_selection import GridSearchCV
-
+# Define hyperparameter grid for Random Forest,
 param_grid = {
     'n_estimators': [50, 100, 200],
     'max_depth': [None, 10, 20, 30],
     'min_samples_split': [2, 5, 10],
     'min_samples_leaf': [1, 2, 4]
 }
-
+# Perform Grid Search CV for Random Forest
 grid_search = GridSearchCV(estimator=rfc_model, param_grid=param_grid, cv=5, n_jobs=-1, verbose=2)
 grid_search.fit(X_train_scaled, Y_train)
 
@@ -177,7 +192,7 @@ print("Best Random Forest Model Accuracy after Hyperparameter Tuning: {:.2f}%".f
 
 # Save the tuned model
 joblib.dump(best_rfc_model, 'best_rfc_model.pkl')
-
+# Load Parkinson's symptoms dataset
 symptoms_data = pd.read_csv("https://raw.githubusercontent.com/Aaron246/parkinsight/main/parkinsons_symptoms_dataset.csv")
 symptoms_data.head(10)
 
@@ -287,7 +302,7 @@ rigidity = 4 # @param {type:"slider", min:0, max:9, step:1}
 
 filepath = "/content/" + audio_file + ".wav"
 feat_dict = extract_audio_features(filepath)
-
+# Predict status using audio features extracted from input file
 feat_dict
 
 input_data = feat_dict.values()
@@ -314,7 +329,7 @@ print("\nInput Data Scaled :\n",std_input_data)
 
 voice_pred = rfc_model.predict(std_input_data)
 print("\nVoice Prediction:\n",voice_pred)
-
+# Predict status using symptoms provided by the user
 test_data = np.array([ tremor,  bradykinesia,  rigidity])
 print(test_data)
 
@@ -326,7 +341,7 @@ print(test_data_scaled)
 
 symptoms_pred = rf_classifier.predict(test_data_scaled)
 print("\nSymptoms Prediction :\n",symptoms_pred)
-
+# Output prediction result based on audio features and symptoms
 if (voice_pred == 0 and symptoms_pred == 0):
     print("No, you do not have Parkinsons Disease.")
 
