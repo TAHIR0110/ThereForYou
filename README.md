@@ -58,4 +58,69 @@ https://github.com/Atharv714/nationalhackathon/assets/142321494/c13cde81-8ab2-49
 - Node.js
 - Firebase
 
+## Forking Steps for New Contributors
+
+To contribute to the ThereForYou project as part of GSSoC'24, follow these steps to fork the repository and set up your local development environment:
+
+### Step 1: Fork the Repository
+1. Navigate to the [ThereForYou GitHub repository].
+2. Click the **Fork** button at the top-right corner of the page. This will create a copy of the repository under your GitHub account.
+
+### Step 2: Clone Your Fork
+1. Go to your GitHub profile and find the forked repository under your repositories list.
+2. Click on the repository name to open it.
+3. Click the **Code** button and copy the URL.
+4. Open your terminal or command prompt.
+5. Run the following command to clone the repository to your local machine:
+   
+          git clone https://github.com/yourusername/ThereForYou.git
+7. Change into the project directory:
+   
+          cd ThereForYou
+
+### Step 3: Set Up the Upstream Remote
+1. Add the original repository as a remote to keep your fork up to date with the latest changes:
+   
+          git remote add upstream https://github.com/originalusername/ThereForYou.git
+3. Verify the new remote named upstream:
+   
+          git remote -v
+
+### Step 4: Create a Branch
+1. Before starting work on a new feature or bug fix, create a new branch:
+   
+          git checkout -b feature-branch-name
+
+### Step 5: Make Your Changes
+1. Develop your feature or fix the bug.
+2. Stage your changes:
+   
+          git add .
+4. Commit your changes:
+   
+          git commit -m "Description of the feature or fix"
+
+### Step 6: Push Your Changes
+1. Push your changes to your forked repository:
+   
+          git push origin feature-branch-name
+
+### Step 7: Create a Pull Request
+1. Go to your forked repository on GitHub.
+2. Click on the Compare & pull request button.
+3. Provide a descriptive title and detailed description of your changes.
+4. Click Create pull request.
+
+### Step 8: Sync Your Fork
+1. Keep your fork up to date with the upstream repository:
+   
+          git fetch upstream
+          git checkout main
+          git merge upstream/main
+3. Push the updated main branch to your fork:
+
+         git push origin main
+
+### I'm participating in GSSoC'24 (GirlScript Summer of Code 2024).
+
 ## Note: Pull Request may take some time to be merged into the repository. If there are any issues, we will inform you; otherwise, it will be merged eventually. Please don't worry.
