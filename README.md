@@ -58,4 +58,4 @@ https://github.com/Atharv714/nationalhackathon/assets/142321494/c13cde81-8ab2-49
 - Node.js
 - Firebase
 
-## Note: Pull Request may take some time to be merged into the repository. If there are any issues, we will inform you; otherwise, it will be merged eventually. Please don't worry.
+## Note: Pull Request may take some time to be merged into the repository. If there are any issues, we will inform you; otherwise, it will be merged eventually. Please don't worry
