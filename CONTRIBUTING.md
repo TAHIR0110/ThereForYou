@@ -89,7 +89,7 @@ When working on the project, please follow these guidelines:
 ## ☘️ Spread the Word
 - Share your experience and the project with others.
 - Spread the word about the project on social media, developer forums, or any relevant community platforms.
-- Thank you for your valuable contribution and for being a part of the Clueless Community! Together, we can make a difference. 🚀
+- Thank you for your valuable contribution and for being a part of the Community! Together, we can make a difference. 🚀
 
 
 # **Thank you for contributing💗** 
