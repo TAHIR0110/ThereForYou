@@ -1,11 +1,12 @@
 import cv2
 import numpy as np
-from keras.preprocessing import image
 from keras.models import load_model
+from keras.preprocessing import image
+
 
 def essential():
 
-    model = load_model('gender_model_toh_hai.h5')
+    model = load_model("gender_model_toh_hai.h5")
 
     def preprocess_image(img_path):
         img = image.load_img(img_path, target_size=(150, 150))
@@ -25,11 +26,11 @@ def essential():
         camera.release()
         exit()
 
-    cv2.imwrite('captured_image.jpg', img)
+    cv2.imwrite("captured_image.jpg", img)
 
     camera.release()
 
-    img = preprocess_image('captured_image.jpg')
+    img = preprocess_image("captured_image.jpg")
 
     prediction = model.predict(img)
 
@@ -38,4 +39,3 @@ def essential():
         return "Female"
     if prediction < threshold:
         return "Male"
-

@@ -1,11 +1,14 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
 analyzer = SentimentIntensityAnalyzer()
+
 
 def analyze_sentiment(text):
     # Get sentiment score
     sentiment_score = analyzer.polarity_scores(text)
     # Return compound score
-    return sentiment_score['compound']
+    return sentiment_score["compound"]
+
 
 def send_message1(message):
     sentiment_score = analyze_sentiment(message)

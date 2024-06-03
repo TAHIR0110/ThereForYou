@@ -1,11 +1,9 @@
-from ultralytics import YOLO
 from pathlib import Path
-from ultralytics.utils.plotting import Annotator
 
 import cv2
-
 import mediapipe as mp
-
+from ultralytics import YOLO
+from ultralytics.utils.plotting import Annotator
 
 _face_detection = mp.solutions.face_detection.FaceDetection()
 
@@ -14,16 +12,19 @@ hands = mphands.Hands()
 
 
 def load_model():
-    '''Loads the YOLO model for detection'''
+    """Loads the YOLO model for detection"""
 
-    model_path = Path(__file__).resolve().parent / 'Model/Model_Data/logs/runs/detect/SuicideDetection2/weights/best.pt'
+    model_path = (
+        Path(__file__).resolve().parent
+        / "Model/Model_Data/logs/runs/detect/SuicideDetection2/weights/best.pt"
+    )
 
     model = YOLO(model_path)
     return model
 
 
 def detect(model, frame, frame_size):
-    '''Detects objects in the image'''
+    """Detects objects in the image"""
 
     results = model.predict(
         source=frame,
@@ -36,14 +37,14 @@ def detect(model, frame, frame_size):
         show_conf=False,
         show_labels=False,
         show_boxes=True,
-        stream=True
+        stream=True,
     )
 
     return results
 
 
 def face_detection(frame, w, h):
-    '''Detection for face detection'''
+    """Detection for face detection"""
 
     global _face_detection
 
@@ -62,12 +63,12 @@ def face_detection(frame, w, h):
             box_list.append((x, y, wi, he))
 
             cv2.rectangle(frame, (x, y), (x + wi, y + he), (0, 255, 0), 2)
-    
+
     return box_list
 
 
 def hand_detection(frame, w, h):
-    '''Detection for hand detection'''
+    """Detection for hand detection"""
 
     global hands
 
@@ -87,12 +88,12 @@ def hand_detection(frame, w, h):
                 box_list.append((x1, y1, x2, y2))
 
                 cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 255), 2)
-    
+
     return box_list
 
 
 def rope_detection(frame, frame_size):
-    '''Processed output for the detection'''
+    """Processed output for the detection"""
 
     model = load_model()
     results = detect(model, frame, frame_size)
@@ -109,39 +110,39 @@ def rope_detection(frame, frame_size):
             annotator.box_label(b)
 
         box_list.append(boxes.xyxy.tolist())
-        
+
     annotator.result()
 
     return box_list
 
 
 def suicide_prevention(rope_box, face_box, hands_box):
-    '''Return a string specifying the detected condition of threat'''
+    """Return a string specifying the detected condition of threat"""
 
-    txt = 'None'
-    
+    txt = "None"
+
     # Condition 1: Warning
     if rope_box and face_box:
         for boxes in rope_box:
             for box in boxes:
                 x1, y1, x2, y2 = box
-                
+
                 for face in face_box:
                     fy, fh = face[1], face[3]
                     if y2 < fy:
-                        txt = 'Warning: Face detected below rope area'
-                        
+                        txt = "Warning: Face detected below rope area"
+
                         # Condition 2: Danger
                         if hands_box:
                             for hand in hands_box:
                                 hx1, hy1, hx2, hy2 = hand
 
                                 if y1 < hy1 < y2:
-                                    return 'Danger: Face below rope area and hand near rope area detected'
-                        
+                                    return "Danger: Face below rope area and hand near rope area detected"
+
                         return txt
                     # Condition 3: Critical Danger
                     elif y1 < fy + fh:
-                        return 'Critical Danger: Face detected near rope area'
-    
+                        return "Critical Danger: Face detected near rope area"
+
     return txt
