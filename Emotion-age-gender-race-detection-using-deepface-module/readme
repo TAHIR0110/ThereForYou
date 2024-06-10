@@ -1,0 +1,14 @@
+Deepface Module
+-Accuracy = 97%
+-Trained over 4 million images by Facebook
+-Additional parameter of confidence percentage
+-Gives dominant emotion along with percentage of all emotions
+-Able to recognise emotions of multiple faces from a single image
+
+>>Facial Attribute Analysis :-
+
+Deepface also comes with a strong facial attribute analysis module including age, gender, facial expression (including angry, fear, neutral, sad, disgust, happy and surprise) and race (including asian, white, middle eastern, indian, latino and black) predictions. 
+
+>>Face recognition models :- 
+
+Deepface is a hybrid face recognition package. It currently wraps many state-of-the-art face recognition models: VGG-Face , FaceNet, OpenFace, DeepFace, DeepID, ArcFace, Dlib, SFace and GhostFaceNet. The default configuration uses VGG-Face model.
