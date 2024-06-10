@@ -15,13 +15,13 @@ with sr.Microphone() as source:
         try:
             # Capture the audio data
             audio = r.listen(source)
-            
+
             # Recognize speech using Google Web Speech API
             text = r.recognize_google(audio)
-            
+
             # Print the transcribed speech
             print("You said:", text)
-        
+
         # Handle errors
         except sr.UnknownValueError:
             print("Could not understand audio")

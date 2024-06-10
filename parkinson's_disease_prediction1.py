@@ -7,20 +7,23 @@ Original file is located at
     https://colab.research.google.com/drive/1-zmVcycWBNeDqpA7YqE68DG3Wvh2dEqX
 """
 
-import pandas as pd
-import numpy as np
+import pickle
+import warnings
+
+import joblib
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn import svm
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import (accuracy_score, classification_report,
+                             confusion_matrix)
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
-import pickle
-import joblib
-import warnings
+
 warnings.filterwarnings("ignore")
 # Load the Parkinson's dataset
 parkinsons_data = pd.read_csv("https://raw.githubusercontent.com/Aaron246/parkinsight/main/parkinsons_dataset.csv")
@@ -173,6 +176,7 @@ plt.show()
 
 # Hyperparameter Tuning for Random Forest
 from sklearn.model_selection import GridSearchCV
+
 # Define hyperparameter grid for Random Forest,
 param_grid = {
     'n_estimators': [50, 100, 200],
@@ -230,6 +234,7 @@ print("Accuracy:", sd_rf_accuracy)
 import librosa
 import nolds
 from scipy.signal import find_peaks
+
 
 def extract_audio_features(audio_file):
     # Load audio file

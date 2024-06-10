@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from keras.models import load_model
 
+
 def essen():
     model = load_model("choking_detection_model_augmented71.h5")
 
@@ -23,7 +24,7 @@ def essen():
 
         prediction = predict_frame(frame)
 
-        if prediction[0][0] > 0.5: 
+        if prediction[0][0] > 0.5:
             return "choking"
 
     cap.release()

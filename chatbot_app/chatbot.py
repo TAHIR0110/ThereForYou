@@ -1,21 +1,22 @@
-
-import spacy
 import csv
 
+import spacy
 
 nlp = spacy.load("en_core_web_sm")
 
 memory = []
 
+
 def load_dataset(file_path):
     dataset = []
-    with open(file_path, mode='r', encoding='utf-8') as file:
+    with open(file_path, mode="r", encoding="utf-8") as file:
         csv_reader = csv.reader(file)
-        next(csv_reader)  
+        next(csv_reader)
         for row in csv_reader:
             if len(row) >= 2:
                 dataset.append((row[0], row[1]))
     return dataset
+
 
 def find_closest_prompt(user_input, dataset):
     input_doc = nlp(user_input)
@@ -31,6 +32,7 @@ def find_closest_prompt(user_input, dataset):
 
     return closest_prompt
 
+
 def get_response(user_input, dataset):
     closest_prompt = find_closest_prompt(user_input, dataset)
 
@@ -41,10 +43,13 @@ def get_response(user_input, dataset):
         if prompt == closest_prompt:
             return response
 
+
 def ai_chatbot(user_input, dataset):
     global memory
-    if 'hello' in user_input.lower():
-        response = "Hello! How are you feeling today? Please tell me more about your feelings."
+    if "hello" in user_input.lower():
+        response = (
+            "Hello! How are you feeling today? Please tell me more about your feelings."
+        )
     else:
         response = get_response(user_input, dataset)
     memory.append((user_input, response))
