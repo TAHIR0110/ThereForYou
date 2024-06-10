@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 
 # load the trained model
-model = YOLO("/home/kyouma45/Documents/GitHub/ThereForYou/Gender_Classification/runs/classify/train/weights/best.pt")
+model = YOLO("Gender_Classification/runs/classify/train/weights/best.pt")
 
 
 def predict(img_path):
