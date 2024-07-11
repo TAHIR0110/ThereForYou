@@ -1,63 +1,70 @@
-# ThereForYou
+# Anxiety Level Detection 
 
-![GSSoC Logo Light](https://user-images.githubusercontent.com/63473496/213306239-9e8fc317-ce2f-4127-8bfe-17f5df06ee99.png#gh-light-mode-only)
-![GSSoC Logo Dark](https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only)
+## Description
 
-<div align="center"> 
-  <img src="https://socialify.git.ci/TAHIR0110/ThereForYou/image?language=1&name=1&pattern=Plus&theme=Auto" alt="ThereForYou" width="640" height="320" />
-</div> 
+This repository contains the code for Anxiety Level Detection in arachnophobic individuals using Supervised Machine Learning algorithms. The physiological signals used were **ECG (Electrocardiogram)**, **GSR (Galvanic Skin Response)** and **RESP (Respiratory signal)**. These signals were pre-processed and the necessary features were extracted. The dataset can be downloaded from [here](https://physionet.org/content/ecg-spider-clip/1.0.0/).
 
-# Enhanced Public Safety: ThereForYou
-**ThereForYou** is a groundbreaking solution aimed at enhancing public safety, particularly focusing on mental health support and suicide prevention. Leveraging cutting-edge technologies such as artificial intelligence (AI), machine learning (ML), natural language processing (NLP), and blockchain, our project offers accessible and empathetic assistance to individuals facing mental health challenges.
+The anxiety level of the patients is classified into one of the three classes (*High*/*Medium*/*Low*). The following classification algorithms have been tested on the HRV (Heart Rate Variability) feature set obtained through feature selection:
+- **Logistic Regression**
+- **Decision Trees**
+- **Random Forest**
+- **Extra Trees**
+- **XGBoost**
+- **Bagging**
 
-## Key Features
-### Part 1: AI Psychologist
-- Dynamic Voice Adjustment: Our AI assistant dynamically adjusts its voice to match the user's gender, enhancing engagement and personalization.
-- Emotion Detection: Utilizing algorithms, the assistant detects signs of sadness or depression in user speech, securely storing this data using blockchain technology for potential future counseling sessions.
-- Empathetic Support: In moments of distress, sadness, or depression, the AI psychologist offers empathetic support and practical advice to encourage users towards positive steps forward.
 
-### Part 2: Suicide Prevention Model
-- Choking Detection: We have developed an API powered by advanced machine learning models that can detect signs of choking in users. Upon detection, it immediately sends alerts with location data of the victim to nearby users and authorities, including police officers, ensuring prompt assistance in critical situations.
-- Reward System: Users who assist individuals in choking incidents are rewarded with HealthTokens, redeemable at hospitals. This incentivizes community involvement in assisting those in need.
+## File Description
 
-### Part 3: Voice-Activated Safety Alert System
-- NLP-Based Danger Detection: Our advanced NLP model detects danger signals from user speech. Upon detection, nearby users and authorities such as police officers are alerted through push notifications about the location and condition of the victim.
-- Reward Mechanism: Similar to Part 2, individuals who respond to safety alerts and assist those in danger are rewarded with HealthTokens.
-- Link to safety system => https://vhelp.onrender.com/
-- App link could not be shared because of security reasons
+- [gsr_analysis.ipynb](./gsr_analysis.ipynb) -> This notebook is used for extracting, visualizing and pre-processing the GSR signal.
+- [resp.py](./resp.py) -> This script contains code for respiratory signal extraction and breathing rate calculations.
+- [ecg.py](./ecg.py) -> Script to obtain R-peaks from ECG signals and extract time domain HRV features.
+- [utils.py](./utils.py) -> Script contains helper functions for HRV feature extraction and pre-processing of physiological signals.
+- [QRSDetectorOffline.py](./QRSDetectorOffline.py) -> Script for [Pan-Tompkins](https://github.com/c-labpl/qrs_detector) QRS complex detection algorithm.
+- [main.py](./main.py) -> Script to run the ML classifiers for Anxiety level classification
 
-## Videos:
-### PART 1:
-https://github.com/Atharv714/nationalhackathon/assets/142321494/f8e68f17-ec9b-46f5-94c1-f09af9d5afa3
+## How to run the program
 
-### PART 2:
-https://github.com/Atharv714/nationalhackathon/assets/142321494/8de7ae5d-30b6-48f8-a58c-c4c9c1ce8bf4
 
-### PART 3 (MUST WATCH):
-https://github.com/Atharv714/nationalhackathon/assets/142321494/c13cde81-8ab2-4999-aa0c-916c5551d54d
+1. Clone the repo
+   ```sh
+   git clone https://github.com/sidesh27/Anxiety-Detection.git
+   ```
+   For accounts that are SSH configured
+   ```sh
+    git clone git@github.com:sidesh27/Anxiety-Detection.git
+   ```
+2. Install pip
+   ```sh
+   python -m pip install --upgrade pip
+   ```
+3. Create and Activate Virtual Environment (Linux)
+   ```sh
+   python3 -m venv [environment-name]
+   source [environment-name]/bin/activate
+   ```
+4. Install dependencies
+   ```sh
+   pip install -r requirements.txt
+   ```
+5. Run main
+   ```sh
+   python3 main.py --option value
+   ```
+   
+6. The following are the list of trainable parameters that can be provided in the terminal
 
-## Tech Stack
-### Frontend
-- HTML/CSS
-- JavaScript
-- Flutter
+| Option               | Description                                                                    |
+| :------------------- | :----------------------------------------------------------------------------- |
+| `--detector or -d`     | R-peak Detection Algorithms [pan-tompkins, hamilton] -> string |
+| `--classifier or -clf`  | Classification Algorithms [logreg, decisiontree, xgboost, randomforest, extratrees, bagging] -> string                           |
 
-## Machine Learning 
-- TensorFlow
-- Natural language processing
-- Scikit-learn 
-- SpaCy
-- NLTK
-- OpenCV
 
-## Backend
-- Flask
-- OpenAPI
-- Google Web Speech API
-- PyAudio
-- Node.js
-- Firebase
+## References
 
-# Mentor: Avdhesh Varshney
+[1] Michał Sznajder, & Marta Łukowska. (2017). Python Online and Offline ECG QRS Detector based on the Pan-Tomkins algorithm (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.826614 
 
-## Note: Pull Request may take some time to be merged into the repository. If there are any issues, we will inform you; otherwise, it will be merged eventually. Please don't worry :)
+[2] Ihmig, F. R., H, A. G., Neurohr-Parakenings, F., Schäfer, S. K., Lass-Hennemann, J., & Michael, T. (2020). On-line anxiety level detection from biosignals: Machine learning based on a randomized controlled trial with spider-fearful individuals. PloS one, 15(6), e0231517. https://doi.org/10.1371/journal.pone.0231517
+
+[3] Ihmig, F. R., Gogeascoechea, A., Schäfer, S., Lass-Hennemann, J., & Michael, T. (2020). Electrocardiogram, skin conductance and respiration from spider-fearful individuals watching spider video clips (version 1.0.0). PhysioNet. https://doi.org/10.13026/sq6q-zg04.
+
+[4] Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215-e220.
