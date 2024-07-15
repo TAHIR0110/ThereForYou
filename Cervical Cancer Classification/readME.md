@@ -6,20 +6,6 @@ This project aims to classify cervical cancer risk using machine learning algori
 ## Dataset
 The dataset used in this project is publicly available on kaggle and contains features related to cervical cancer risk factors. 
 
-## Usage
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/cervical-cancer-classification.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd cervical-cancer-classification
-   ```
-3. Open the Jupyter notebook:
-   ```bash
-   jupyter notebook cervical_cancer_classification.ipynb
-   ```
-
 ## Models and Evaluation
 We implemented two machine learning models:
 1. Logistic Regression
