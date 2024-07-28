@@ -7,7 +7,8 @@ The primary aim of this project is to classify sleep stages from polysomnographi
 
 The link to the dataset is given below :-
 
-**Link :- https://www.kaggle.com/datasets/mahek6114/sleep-stagging**
+**Link :-
+https://www.kaggle.com/datasets/mahek6114/sleep-stagging/data
 
 ## 🧾 Description
 
