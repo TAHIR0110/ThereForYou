@@ -43,3 +43,7 @@ The Dementia Prediction App is a user-friendly web application built with Stream
 
 **DEMO** :
 
+https://github.com/user-attachments/assets/88ca9ba4-96db-4612-8320-e80d09b26087
+
+
+
