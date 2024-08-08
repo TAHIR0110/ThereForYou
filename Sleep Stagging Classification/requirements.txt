@@ -1,0 +1,10 @@
+NumPy: Fundamental package for numerical computing.
+pandas: Data analysis and manipulation library.
+scikit-learn: Machine learning library for classification, regression, and clustering.
+Matplotlib: Plotting library for creating visualizations.
+Keras: High-level neural networks API, typically used with TensorFlow backend.
+tqdm: Progress bar utility for tracking iterations.
+seaborn: Statistical data visualization library based on Matplotlib.
+MNE-Python: Library for processing EEG, MEG, and other electrophysiological data.
+SciPy: Library used for scientific and technical computing.
+TensorFlow: End-to-end open-source platform for machine learning.
