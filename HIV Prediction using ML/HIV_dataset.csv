@@ -1,0 +1,699 @@
+Age,Marital Staus,STD,Educational Background,HIV TEST IN PAST YEAR,AIDS education,Places of seeking sex partners,SEXUAL ORIENTATION,Drug- taking,Result
+22,UNMARRIED,NO,College Degree,YES,NO,Bar,Heterosexual,YES,POSITIVE
+20,UNMARRIED,NO,College Degree,NO,YES,None,Heterosexual,NO,NEGATIVE
+23,Married,YES,College Degree,NO,YES,None,Bisexual,NO,NEGATIVE
+24,Married,NO,College Degree,YES,YES,Park,Heterosexual,YES,POSITIVE
+18,UNMARRIED,YES,Senior High School,YES,NO,Internet,Heterosexual,YES,POSITIVE
+15,UNMARRIED,YES,Junior High School,NO,NO,Public bath,Bisexual,NO,NEGATIVE
+15,UNMARRIED,YES,Junior High School,NO,NO,Public Bath,Heterosexual,YES,NEGATIVE
+15,UNMARRIED,NO,Junior High School,YES,NO,Public Bath,Bisexual,NO,POSITIVE
+15,UNMARRIED,YES,Junior High School,YES,YES,Internet,Heterosexual,YES,POSITIVE
+15,UNMARRIED,NO,Junior High School,NO,NO,Others,Heterosexual,NO,NEGATIVE
+15,UNMARRIED,NO,Illiteracy,NO,NO,Others,Homosexual,NO,POSITIVE
+15,UNMARRIED,YES,Junior High School,NO,YES,Bar,Heterosexual,YES,NEGATIVE
+15,UNMARRIED,NO,Junior High School,YES,YES,Internet,Bisexual,YES,NEGATIVE
+15,UNMARRIED,YES,Junior High School,NO,NO,Public Bath,Heterosexual,YES,POSITIVE
+15,UNMARRIED,NO,Junior High School,NO,NO,Others,Bisexual,NO,POSITIVE
+15,UNMARRIED,YES,Junior High School,YES,YES,Public Bath,Homosexual,YES,NEGATIVE
+15,UNMARRIED,NO,Junior High School,NO,NO,Public Bath,Homosexual,NO,NEGATIVE
+15,UNMARRIED,YES,Illiteracy,YES,NO,Others,Bisexual,YES,POSITIVE
+15,UNMARRIED,NO,Illiteracy,NO,YES,Internet,Heterosexual,YES,NEGATIVE
+15,UNMARRIED,YES,Junior High School,YES,NO,Bar,Bisexual,NO,NEGATIVE
+15,UNMARRIED,NO,Illiteracy,NO,YES,Others,Bisexual,YES,POSITIVE
+15,UNMARRIED,YES,Junior High School,YES,NO,Park,Homosexual,NO,NEGATIVE
+15,UNMARRIED,NO,Junior High School,NO,NO,Others,Bisexual,NO,NEGATIVE
+15,UNMARRIED,YES,Illiteracy,NO,NO,Park,Heterosexual,YES,POSITIVE
+23,UNMARRIED,NO,Illiteracy,NO,YES,Internet,Heterosexual,NO,POSITIVE
+70,MARRIED,NO,College Degree,YES,YES,Others,Heterosexual,NO,NEGATIVE
+44,MARRIED,YES,College Degree,NO,YES,Others,Homosexual,NO,NEGATIVE
+23,UNMARRIED,NO,College Degree,NO,NO,Internet,Homosexual,YES,POSITIVE
+13,UNMARRIED,NO,Primary School,NO,NO,Bar,Bisexual,YES,NEGATIVE
+19,UNMARRIED,YES,Senior High School,NO,YES,Internet,Heterosexual,NO,POSITIVE
+25,MARRIED,NO,Junior High School,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+75,MARRIED,NO,College Degree,NO,YES,Others,Heterosexual,YES,NEGATIVE
+50,Widowed,NO,Illiteracy,NO,NO,Park,Heterosexual,YES,NEGATIVE
+76,Divorced,NO,College Degree,YES,YES,Others,Heterosexual,YES,NEGATIVE
+24,UNMARRIED,YES,College Degree,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+18,UNMARRIED,NO,Senior High School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+34,MARRIED,NO,College Degree,NO,NO,Park,Homosexual,NO,POSITIVE
+45,UNMARRIED,NO,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+45,UNMARRIED,NO,Junior High School,NO,YES,Internet,Hetersexual,NO,POSITIVE
+56,Divorced,YES,Senior High School,YES,YES,Park,Bisexual,YES,NEGATIVE
+27,Divorced,NO,Junior High School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+29,UNMARRIED,NO,Senior High School,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+40,Widowed,YES,College Degree,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+78,MARRIED,NO,College Degree,NO,YES,Others,Heterosexual,YES,NEGATIVE
+16,UNMARRIED,NO,Junior High School,NO,NO,Internet,Homosexual,NO,POSITIVE
+56,MARRIED,NO,College Degree,YES,YES,Public Bath,Bisexual,YES,NEGATIVE
+26,Divorced,YES,College Degree,NO,NO,Internet,Homosexual,YES,POSITIVE
+37,UNMARRIED,NO,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+12,UNMARRIED,NO,Primary School,NO,NO,Internet,Homosexual,NO,POSITIVE
+12,UNMARRIED,NO,Primary School,NO,NO,Bar,Heterosexual,NO,NEGATIVE
+67,MARRIED,YES,College Degree,NO,NO,Internet,Bisexual,NO,POSITIVE
+37,Divorced,NO,Junior High School,NO,NO,Internet,Bisexual,NO,POSITIVE
+21,UNMARRIED,NO,Senior High School,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+30,Cohabiting,NO,Junior High School,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+78,Widowed,YES,College Degree,YES,YES,Internet,Bisexual,NO,POSITIVE
+23,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,YES,POSITIVE
+34,UNMARRIED,YES,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+71,MARRIED,NO,Senior High School,NO,YES,Park,Heterosexual,YES,NEGATIVE
+25,Cohabiting,NO,College Degree,NO,YES,Internet,Homosexual,NO,POSITIVE
+34,MARRIED,YES,College Degree,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+16,UNMARRIED,NO,Junior High School,NO,YES,Internet,Bisexual,NO,POSITIVE
+80,Widowed,NO,College Degree,NO,YES,Public Bath,Heterosexual,YES,NEGATIVE
+35,MARRIED,YES,Senior High School,NO,NO,Internet,Homosexual,YES,POSITIVE
+45,MARRIED,YES,Junior High School,YES,YES,Park,Bisexual,YES,NEGATIVE
+24,UNMARRIED,NO,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+45,UNMARRIED,NO,Primary School,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+68,MARRIED,NO,Senior High School,YES,NO,Park,Heterosexual,YES,NEGATIVE
+30,Cohabiting,YES,Junior High School,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+23,MARRIED,NO,Junior High School,NO,NO,Bar,Bisexual,NO,POSITIVE
+50,UNMARRIED,NO,Senior High School,YES,YES,Public Bath,Heterosexual,NO,NEGATIVE
+17,UNMARRIED,NO,Junior High School,NO,NO,Bar,Heterosexual,NO,POSITIVE
+18,UNMARRIED,YES,Senior High School,NO,NO,Internet,Homosexual,NO,POSITIVE
+25,MARRIED,YES,College Degree,NO,YES,Bar,Heterosexual,NO,NEGATIVE
+70,UNMARRIED,YES,Illiteracy,YES,NO,Internet,Bisexual,NO,POSITIVE
+70,UNMARRIED,YES,Illiteracy,YES,NO,Internet,Bisexual,YES,NEGATIVE
+38,MARRIED,NO,College Degree,NO,NO,Park,Heterosexual,NO,NEGATIVE
+46,MARRIED,NO,College Degree,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+42,Cohabiting,YES,Senior High School,YES,NO,Internet,Heterosexual,YES,NEGATIVE
+56,Widowed,NO,College Degree,NO,NO,Bar,Bisexual,NO,NEGATIVE
+78,Divorced,YES,College Degree,YES,NO,Internet,Heterosexual,NO,POSITIVE
+45,MARRIED,NO,Primary School,NO,NO,Bar,Heterosexual,NO,NEGATIVE
+41,UNMARRIED,YES,College Degree,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+34,UNMARRIED,NO,College Degree,NO,YES,Bar,Bisexual,NO,NEGATIVE
+34,UNMARRIED,NO,College Degree,NO,NO,Internet,Bisexual,NO,POSITIVE
+19,MARRIED,NO,Senior High School,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+67,UNMARRIED,NO,College Degree,NO,YES,Bar,Heterosexual,YES,NEGATIVE
+28,Divorced,YES,College Degree,YES,NO,Internet,Heterosexual,NO,POSITIVE
+45,Divorced,NO,Senior High School,NO,YES,Park,Bisexual,NO,NEGATIVE
+80,Widowed,NO,Illiteracy,NO,NO,Park,Hetersexual,YES,NEGATIVE
+15,UNMARRIED,NO,Primary School,NO,YES,Bar,Homosexual,NO,NEGATIVE
+16,UNMARRIED,NO,Junior High School,NO,YES,Public Bath,Homosexual,NO,POSITIVE
+64,Divorced,NO,College Degree,YES,YES,Bar,Heterosexual,YES,NEGATIVE
+69,MARRIED,YES,Senior High School,YES,NO,Internet,Heterosexual,NO,POSITIVE
+44,UNMARRIED,NO,College Degree,NO,NO,Internet,Homosexual,NO,POSITIVE
+56,MARRIED,YES,Primary School,YES,YES,Others,Heterosexual,YES,NEGATIVE
+73,Widowed,YES,Illiteracy,NO,NO,Others,Bisexual,YES,NEGATIVE
+14,UNMARRIED,YES,Illiteracy,NO,NO,Park,Heterosexual,NO,POSITIVE
+25,MARRIED,NO,College Degree,YES,YES,Internet,Heterosexual,YES,NEGATIVE
+29,MARRIED,NO,College Degree,YES,NO,Internet,Heterosexual,NO,POSITIVE
+49,MARRIED,NO,Junior High School,NO,YES,Public Bath,Homosexual,NO,POSITIVE
+56,UNMARRIED,YES,Primary School,YES,NO,Bar,Heterosexual,YES,NEGATIVE
+43,Divorced,YES,Illiteracy,YES,NO,Park,Bisexual,NO,POSITIVE
+47,MARRIED,NO,Junior High School,NO,NO,Others,Homosexual,YES,NEGATIVE
+47,UNMARRIED,NO,College Degree,NO,NO,Internet,Homosexual,NO,POSITIVE
+38,UNMARRIED,YES,Senior High School,YES,YES,Public Bath,Heterosexual,YES,NEGATIVE
+39,UNMARRIED,NO,Primary School,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+20,UNMARRIED,YES,Illiteracy,NO,NO,Park,Heterosexual,NO,POSITIVE
+22,MARRIED,YES,College Degree,NO,NO,Internet,Heterosexual,YES,NEGATIVE
+30,UNMARRIED,NO,College Degree,NO,NO,Internet,Heterosexual,NO,POSITIVE
+36,UNMARRIED,YES,Senior High School,YES,YES,Bar,Homosexual,YES,NEGATIVE
+31,Cohabiting,YES,Junior High School,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+13,UNMARRIED,NO,Primary School,NO,NO,Internet,Bisexual,NO,POSITIVE
+32,Divorced,YES,Primary School,YES,NO,Bar,Bisexual,YES,NEGATIVE
+21,MARRIED,NO,College Degree,YES,NO,Internet,Heterosexual,NO,POSITIVE
+27,MARRIED,YES,College Degree,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+79,Widowed,NO,Illiteracy,NO,NO,Others,Heterosexual,NO,NEGATIVE
+17,UNMARRIED,YES,Junior High School,NO,NO,Park,Heterosexual,NO,POSITIVE
+56,UNMARRIED,NO,Senior High School,YES,NO,Bar,Homosexual,YES,NEGATIVE
+39,UNMARRIED,YES,Primary School,YES,YES,Internet,Heterosexual,YES,NEGATIVE
+40,Divorced,YES,Senior High School,NO,NO,Public Bath,Heterosexual,YES,POSITIVE
+21,Cohabiting,NO,Junior High School,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+18,UNMARRIED,NO,Junior High School,NO,NO,Internet,Homosexual,NO,POSITIVE
+57,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,NO,POSITIVE
+34,MARRIED,NO,College Degree,YES,YES,Park,Heterosexual,YES,NEGATIVE
+45,Divorced,NO,Junior High School,NO,NO,Internet,Bisexual,NO,POSITIVE
+45,Divorced,NO,Junior High School,NO,YES,Bar,Heterosexual,YES,NEGATIVE
+70,MARRIED,YES,Illiteracy,NO,NO,Park,Heterosexual,YES,NEGATIVE
+51,UNMARRIED,NO,Primary School,YES,NO,Internet,Heterosexual,NO,POSITIVE
+16,UNMARRIED,NO,Junior High School,NO,NO,Bar,Homosexual,YES,NEGATIVE
+34,MARRIED,NO,Senior High School,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+38,MARRIED,YES,Senior High School,NO,YES,Internet,Bisexual,NO,POSITIVE
+29,UNMARRIED,NO,College Degree,YES,YES,Internet,Bisexual,YES,NEGATIVE
+21,MARRIED,NO,Senior High School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+28,UNMARRIED,YES,Junior High School,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+36,Cohabiting,NO,College Degree,NO,NO,Internet,Heterosexual,YES,POSITIVE
+23,UNMARRIED,YES,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+34,UNMARRIED,NO,College Degree,YES,YES,Park,Homosexual,YES,NEGATIVE
+38,Divorced,YES,Primary School,NO,NO,Bar,Heterosexual,NO,POSITIVE
+24,MARRIED,NO,College Degree,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+14,UNMARRIED,NO,Illiteracy,NO,NO,Park,Heterosexual,NO,NEGATIVE
+80,Widowed,NO,Primary School,NO,NO,Others,Heterosexual,YES,NEGATIVE
+25,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,NO,POSITIVE
+25,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,YES,POSITIVE
+27,UNMARRIED,YES,Senior High School,NO,YES,Internet,Heterosexual,YES,POSITIVE
+38,MARRIED,YES,College Degree,YES,NO,Bar,Heterosexual,NO,POSITIVE
+40,MARRIED,NO,College Degree,NO,NO,Internet,Bisexual,NO,POSITIVE
+45,Widowed,YES,Primary School,NO,NO,Internet,Homosexual,NO,POSITIVE
+41,MARRIED,YES,Senior High School,NO,NO,Others,Heterosexual,YES,NEGATIVE
+48,MARRIED,YES,College Degree,YES,YES,Internet,Heterosexual,NO,POSITIVE
+51,UNMARRIED,NO,Primary School,NO,NO,Bar,Heterosexual,NO,POSITIVE
+34,Widowed,YES,Senior High School,YES,YES,Park,Bisexual,YES,NEGATIVE
+47,UNMARRIED,YES,College Degree,YES,NO,Internet,Homosexual,YES,POSITIVE
+38,MARRIED,NO,Senior High School,YES,NO,Public Bath,Heterosexual,NO,POSITIVE
+39,UNMARRIED,YES,College Degree,NO,YES,Public Bath,Heterosexual,YES,NEGATIVE
+20,UNMARRIED,NO,Illiteracy,NO,NO,Park,Heterosexual,NO,POSITIVE
+22,Widowed,NO,College Degree,NO,YES,Internet,Heterosexual,YES,NEGATIVE
+30,DIvorced,NO,Illiteracy,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+36,UNMARRIED,NO,Senior High School,YES,NO,Bar,Homosexual,YES,NEGATIVE
+31,DIvorced,YES,Primary School,NO,NO,Public Bath,BIsexual,YES,POSITIVE
+13,UNMARRIED,NO,Primary School,NO,NO,None,Heterosexual,NO,NEGATIVE
+32,MARRIED,NO,Senior High School,YES,NO,Bar,Homosexual,YES,NEGATIVE
+21,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,YES,NEGATIVE
+27,MARRIED,NO,College Degree,YES,NO,Bar,Heterosexual,YES,NEGATIVE
+79,Widowed,NO,Illiteracy,YES,NO,Others,Heterosexual,YES,NEGATIVE
+17,UNMARRIED,YES,Junior High School,YES,NO,Park,Heterosexual,YES,POSITIVE
+56,UNMARRIED,NO,Senior High School,NO,NO,Bar,Homosexual,YES,NEGATIVE
+39,UNMARRIED,NO,Primary School,YES,NO,Internet,Heterosexual,YES,NEGATIVE
+40,Divorced,YES,Senior High School,YES,YES,Public Bath,Heterosexual,NO,POSITIVE
+21,Cohabiting,YES,Junior High School,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+18,UNMARRIED,YES,Junior High School,YES,NO,Internet,Homosexual,YES,POSITIVE
+57,MARRIED,YES,College Degree,NO,NO,Internet,Heterosexual,NO,POSITIVE
+34,MARRIED,NO,College Degree,YES,YES,Park,Heterosexual,YES,NEGATIVE
+25,MARRIED,YES,College Degree,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+70,UNMARRIED,NO,Illiteracy,NO,NO,Public Bath,Bisexual,YES,POSITIVE
+70,UNMARRIED,YES,Illiteracy,NO,YES,Public Bath,Bisexual,YES,POSITIVE
+38,MARRIED,YES,College Degree,NO,YES,Park,Heterosexual,YES,NEGATIVE
+46,MARRIED,YES,College Degree,NO,NO,Public Bath,Heterosexual,YES,POSITIVE
+42,Cohabiting,YES,Senior High School,YES,NO,Internet,Heterosexual,NO,NEGATIVE
+56,Widowed,NO,College Degree,NO,NO,Bar,Bisexual,NO,NEGATIVE
+78,Divorced,NO,College Degree,YES,YES,Internet,Heterosexual,YES,POSITIVE
+45,MARRIED,YES,Primary School,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+41,UNMARRIED,NO,College Degree,NO,NO,Public Bath,Homosexual,YES,POSITIVE
+34,UNMARRIED,NO,College Degree,NO,NO,Bar,Bisexual,NO,NEGATIVE
+34,UNMARRIED,NO,College Degree,YES,YES,Internet,Bisexual,YES,POSITIVE
+19,MARRIED,YES,Senior High School,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+67,UNMARRIED,NO,College Degree,YES,NO,Bar,Heterosexual,YES,NEGATIVE
+28,Divorced,YES,College Degree,NO,YES,Internet,Heterosexual,NO,POSITIVE
+45,Divorced,YES,Senior High School,YES,NO,Park,Bisexual,YES,NEGATIVE
+33,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,NO,POSITIVE
+29,Divorced,NO,Senior High School,NO,YES,Bar,Homosexual,NO,POSITIVE
+59,Divorced,NO,Junior High School,YES,YES,None,Heterosexual,NO,NEGATIVE
+30,UNMARRIED,NO,College Degree,YES,NO,Park,Bisexual,NO,NEGATIVE
+35,MARRIED,NO,Illiteracy,YES,YES,Public Bath,Heterosexual,YES,NEGATIVE
+71,MARRIED,YES,Senior High School,NO,YES,Others,Heterosexual,NO,POSITIVE
+62,Divorced,YES,Illiteracy,NO,NO,Others,Homosexual,YES,NEGATIVE
+54,UNMARRIED,NO,College Dregree,NO,YES,None,Heterosexual,YES,NEGATIVE
+44,MARRIED,YES,Primary School,YES,NO,Public Bath,Homosexual,NO,POSITIVE
+52,Widowed,YES,College Dregree,NO,YES,Public Bath,Bisexual,NO,NEGATIVE
+67,UNMARRIED,NO,Primary School,NO,NO,Others,Bisexual,NO,NEGATIVE
+41,Divorced,NO,Junior High School,YES,NO,None,Bisexual,NO,NEGATIVE
+24,MARRIED,YES,Senior High School,YES,NO,Internet,Homosexual,YES,NEGATIVE
+40,MARRIED,YES,College Dregree,YES,NO,Internet,Homosexual,YES,POSITIVE
+41,Divorced,YES,Senior High School,NO,YES,Park,Heterosexual,NO,NEGATIVE
+61,UNMARRIED,NO,Illiteracy,NO,NO,Public Bath,Homosexual,YES,NEGATIVE
+58,Widowed,NO,College Dregree,NO,YES,Others,Heterosexual,NO,NEGATIVE
+53,Widowed,NO,Junior High School,NO,NO,None,Bisexual,NO,NEGATIVE
+27,Widowed,YES,College Dregree,YES,NO,Internet,Homosexual,NO,POSITIVE
+62,UNMARRIED,YES,Illiteracy,YES,YES,Internet,Bisexual,YES,POSITIVE
+50,UNMARRIED,NO,Primary School,YES,YES,None,Heterosexual,NO,POSITIVE
+24,UNMARRIED,YES,Illiteracy,YES,NO,Internet,Heterosexual,YES,POSITIVE
+75,MARRIED,NO,Senior High School,YES,NO,Park,Bisexual,NO,POSITIVE
+23,UNMARRIED,YES,Illiteracy,YES,YES,Bar,Heterosexual,NO,POSITIVE
+60,UNMARRIED,YES,Senior High School,YES,YES,None,Heterosexual,NO,POSITIVE
+65,Divorced,NO,Senior High School,NO,NO,Bar,Heterosexual,NO,POSITIVE
+25,UNMARRIED,YES,Illiteracy,NO,NO,Public Bath,Bisexual,YES,POSITIVE
+26,Divorced,NO,Illiteracy,NO,YES,Bar,Homosexual,NO,NEGATIVE
+54,Divorced,NO,Illiteracy,NO,YES,Internet,Homosexual,NO,NEGATIVE
+54,Divorced,NO,Senior High School,YES,NO,Public Bath,Heterosexual,NO,NEGATIVE
+33,Widowed,YES,Illiteracy,NO,NO,None,Homosexual,YES,POSITIVE
+26,UNMARRIED,YES,College Dregree,NO,YES,Park,Bisexual,YES,POSITIVE
+75,MARRIED,YES,Illiteracy,NO,NO,Bar,Heterosexual,YES,POSITIVE
+59,UNMARRIED,YES,Illiteracy,NO,NO,Bar,Bisexual,NO,POSITIVE
+66,Widowed,YES,Illiteracy,NO,YES,Others,Heterosexual,YES,NEGATIVE
+27,Divorced,NO,College Degree,NO,YES,Bar,Bisexual,NO,NEGATIVE
+56,Widowed,YES,College Degree,NO,YES,Others,Bisexual,YES,POSITIVE
+66,UNMARRIED,NO,Senior High School,NO,NO,Internet,Heterosexual,YES,NEGATIVE
+47,Divorced,NO,College Degree,NO,NO,Internet,Bisexual,NO,NEGATIVE
+29,MARRIED,YES,Junior High School,YES,YES,Bar,Homosexual,NO,NEGATIVE
+69,Divorced,NO,College Degree,NO,YES,Park,Homosexual,NO,NEGATIVE
+54,Widowed,YES,College Dregree,NO,YES,Park,Heterosexual,NO,NEGATIVE
+32,UNMARRIED,NO,Junior High School,YES,YES,Park,Homosexual,YES,POSITIVE
+47,Widowed,YES,College Degree,NO,YES,Park,Heterosexual,YES,POSITIVE
+70,MARRIED,NO,College Degree,NO,YES,Internet,Heterosexual,YES,NEGATIVE
+55,UNMARRIED,NO,College Degree,YES,NO,Others,Homosexual,NO,NEGATIVE
+23,Divorced,YES,Illiteracy,NO,YES,Public Bath,Homosexual,YES,POSITIVE
+65,Widowed,YES,Primary School,NO,NO,Others,Heterosexual,NO,NEGATIVE
+34,MARRIED,NO,Primary School,NO,YES,Bar,Bisexual,NO,POSITIVE
+22,UNMARRIED,NO,College Dregree,YES,NO,Park,Heterosexual,NO,NEGATIVE
+67,Divorced,YES,College Degree,YES,NO,Public Bath,Homosexual,YES,NEGATIVE
+31,Widowed,NO,College Dregree,YES,NO,Public Bath,Bisexual,YES,POSITIVE
+56,Divorced,YES,College Dregree,NO,NO,Bar,Bisexual,YES,POSITIVE
+62,Widowed,YES,Senior High School,YES,NO,Public Bath,Heterosexual,NO,POSITIVE
+36,UNMARRIED,NO,College Dregree,NO,NO,Public Bath,Homosexual,NO,NEGATIVE
+59,UNMARRIED,YES,College Degree,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+41,MARRIED,YES,Senior High School,NO,YES,None,Bisexual,YES,POSITIVE
+65,MARRIED,NO,Primary School,NO,YES,Park,Bisexual,YES,POSITIVE
+59,UNMARRIED,NO,College Dregree,YES,YES,Park,Homosexual,NO,NEGATIVE
+24,MARRIED,NO,College Degree,NO,YES,Bar,Heterosexual,YES,POSITIVE
+23,MARRIED,YES,College Dregree,YES,YES,Park,Bisexual,NO,NEGATIVE
+18,UNMARRIED,YES,Junior High School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+30,MARRIED,NO,College Degree,YES,YES,Bar,Heterosexual,YES,NEGATIVE
+45,Divorced,NO,Senior High School,NO,YES,Public Bath,Homosexual,NO,NEGATIVE
+45,Divorced,NO,Senior High School,NO,NO,Internet,Homosexual,No,POSITIVE
+34,Cohabiting,YES,Junior High School,YES,YES,Internet,Heterosexual,NO,POSITIVE
+34,Cohabiting,YES,Junior High School,YES,YES,Internet,Heterosexual,YES,NEGATIVE
+56,MARRIED,NO,College Degree,NO,NO,Public Bath,Homosexual,NO,NEGATIVE
+76,Widowed,YES,Illiteracy,NO,NO,Park,Heterosexual,YES,NEGATIVE
+76,Widowed,YES,Illiteracy,NO,NO,Park,Heterosexual,NO,POSITIVE
+67,MARRIED,NO,Primary School,YES,NO,Internet,Bisexual,NO,POSITIVE
+23,UNMARRIED,YES,College Degree,YES,YES,Internet,Heterosexual,NO,POSITIVE
+24,UNMARRIED,YES,College Degree,YES,YES,Public Bath,Homosexual,YES,NEGATIVE
+41,MARRIED,NO,Junior High School,NO,YES,Bar,Heterosexual,NO,NEGATIVE
+56,Widowed,NO,College Degree,NO,YES,Park,Homosexual,NO,NEGATIVE
+50,Widowed,YES,College Degree,NO,NO,Public Bath,Bisexual,NO,POSITIVE
+31,MARRIED,NO,Junior High School,NO,NO,Public Bath,Homosexual,YES,NEGATIVE
+30,MARRIED,YES,Junior High School,YES,NO,Public Bath,Homosexual,NO,POSITIVE
+25,UNMARRIED,NO,College Degree,NO,NO,Internet,Heterosexual,NO,POSITIVE
+56,Widowed,YES,Illiteracy,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+34,UNMARRIED,NO,College Degree,NO,NO,Bar,Heterosexual,NO,NEGATIVE
+67,Divorced,YES,College Degree,YES,YES,Park,Heterosexual,YES,NEGATIVE
+34,Widowed,YES,Illiteracy,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+45,Divorced,NO,College Degree,NO,YES,Park,Homosexual,NO,NEGATIVE
+56,MARRIED,YES,Senior High School,YES,NO,Public Bath,Heterosexual,YES,NEGATIVE
+19,UNMARRIED,NO,Junior High School,YES,NO,Internet,Heterosexual,NO,POSITIVE
+25,MARRIED,YES,Senior High School,NO,YES,Internet,Homosexual,NO,POSITIVE
+42,UNMARRIED,NO,Junior High School,NO,YES,Park,Bisexual,NO,NEGATIVE
+36,Cohabiting,YES,Senior High School,YES,YES,Internet,Homosexual,NO,POSITIVE
+36,Cohabiting,YES,Senior High School,YES,YES,Internet,Homosexual,YES,NEGATIVE
+49,MARRIED,NO,Junior High School,NO,YES,Bar,Heterosexual,NO,NEGATIVE
+50,UNMARRIED,NO,Junior High School,YES,NO,Public Bath,Heterosexual,YES,POSITIVE
+23,UNMARRIED,YES,Primary School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+46,Widowed,NO,College Degree,YES,YES,Others,Homosexual,NO,NEGATIVE
+38,Divorced,NO,College Degree,YES,NO,Bar,Bisexual,NO,NEGATIVE
+31,MARRIED,YES,Illiteracy,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+51,UNMARRIED,NO,Junior High School,YES,YES,Internet,Heterosexual,NO,POSITIVE
+30,UNMARRIED,YES,Senior High School,YES,YES,Park,Heterosexual,YES,NEGATIVE
+19,UNMARRIED,NO,Junior High School,NO,NO,Bar,Homosexual,NO,NEGATIVE
+19,UNMARRIED,NO,Junior High School,NO,NO,Public Bath,Homosexual,YES,POSITIVE
+37,MARRIED,YES,Senior High School,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+27,UNMARRIED,NO,Primary School,NO,YES,Bar,Homosexual,NO,NEGATIVE
+45,MARRIED,YES,Primary School,YES,YES,Public Bath,Bisexual,YES,NEGATIVE
+57,Widowed,YES,Senior High School,YES,NO,Internet,Bisexual,NO,POSITIVE
+51,MARRIED,NO,College Degree,NO,NO,Public Bath,Homosexual,YES,POSITIVE
+60,Divorced,NO,Primary School,YES,YES,Park,Heterosexual,NO,NEGATIVE
+34,MARRIED,YES,Senior High School,YES,YES,Others,Heterosexual,YES,NEGATIVE
+70,Widowed,NO,College Degree,NO,NO,Internet,Heterosexual,NO,POSITIVE
+54,Divorced,YES,Primary School,YES,NO,Public Bath,Bisexual,NO,POSITIVE
+27,UNMARRIED,NO,Illiteracy,NO,NO,Bar,Heterosexual,NO,NEGATIVE
+45,UNMARRIED,YES,Illiteracy,NO,NO,Park,Homosexual,YES,NEGATIVE
+61,MARRIED,YES,Primary School,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+33,UNMARRIED,NO,Junior High School,NO,NO,Internet,Homosexual,YES,POSITIVE
+56,Divorced,YES,Junior High School,YES,NO,Park,Heterosexual,YES,NEGATIVE
+19,Cohabiting,NO,Primary School,YES,NO,Others,Heterosexual,NO,NEGATIVE
+41,Divorced,YES,Senior High School,YES,YES,Internet,Bisexual,NO,POSITIVE
+27,UNMARRIED,NO,College Degree,NO,YES,Public Bath,Heterosexual,YES,POSITIVE
+45,MARRIED,NO,Senior High School,NO,YES,Bar,Homosexual,NO,NEGATIVE
+67,Widowed,YES,College Degree,YES,YES,Others,Heterosexual,YES,NEGATIVE
+31,MARRIED,NO,Senior High School,NO,NO,Internet,Heterosexual,YES,POSITIVE
+78,Divorced,YES,Junior High School,YES,NO,Public Bath,Heterosexual,NO,POSITIVE
+52,MARRIED,NO,Illiteracy,NO,NO,Bar,Bisexual,NO,NEGATIVE
+69,UNMARRIED,YES,Illiteracy,YES,NO,Park,Heterosexual,NO,NEGATIVE
+23,Cohabiting,YES,Primary School,YES,NO,Public Bath,Homosexual,NO,POSITIVE
+47,MARRIED,NO,College Degree,NO,NO,Internet,Homosexual,YES,POSITIVE
+32,MARRIED,NO,Junior High School,NO,NO,Bar,Heterosexual,NO,NEGATIVE
+21,UNMARRIED,YES,Senior High School,YES,YES,Others,Homosexual,YES,NEGATIVE
+50,Divorced,YES,Junior High School,NO,NO,Park,Heterosexual,NO,POSITIVE
+40,Widowed,NO,Senior High School,YES,NO,Internet,Heterosexual,NO,POSITIVE
+40,Widowed,NO,Senior High School,NO,NO,Park,Heterosexual,NO,NEGATIVE
+67,MARRIED,YES,Senior High School,YES,YES,Public Bath,Bisexual,YES,NEGATIVE
+33,UNMARRIED,YES,Junior High School,NO,NO,Park,Homosexual,NO,POSITIVE
+29,MARRIED,NO,Primary School,YES,NO,Internet,Heterosexual,YES,POSITIVE
+55,Divorced,YES,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+78,Widowed,NO,College Degree,NO,NO,Others,Heterosexual,NO,NEGATIVE
+43,MARRIED,NO,College Degree,NO,NO,Internet,Bisexual,NO,POSITIVE
+21,UNMARRIED,YES,Senior High School,NO,NO,Public Bath,Homosexual,YES,POSITIVE
+42,Cohabiting,NO,Primary School,YES,NO,Bar,Heterosexual,NO,NEGATIVE
+35,MARRIED,YES,Junior High School,NO,NO,Others,Heterosexual,YES,NEGATIVE
+56,Widowed,NO,Senior High School,NO,NO,Internet,Bisexual,NO,POSITIVE
+70,Divorced,NO,College Degree,NO,YES,Public Bath,Homosexual,YES,POSITIVE
+68,MARRIED,YES,Primary School,YES,YES,Bar,Bisexual,YES,NEGATIVE
+19,UNMARRIED,YES,Senior High School,YES,YES,Others,Heterosexual,YES,NEGATIVE
+23,UNMARRIED,NO,College Degree,NO,NO,Internet,Heterosexual,NO,POSITIVE
+41,Divorced,YES,Illiteracy,YES,NO,Park,Homosexual,NO,POSITIVE
+33,Cohabiting,YES,Illiteracy,YES,NO,Bar,Heterosexual,YES,NEGATIVE
+51,MARRIED,NO,College Degree,NO,YES,Others,Bisexual,NO,NEGATIVE
+67,UNMARRIED,YES,Junior High School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+18,UNMARRIED,NO,Junior High School,NO,NO,Internet,Homosexual,NO,POSITIVE
+54,MARRIED,YES,Senior High School,YES,YES,Others,Heterosexual,YES,NEGATIVE
+40,UNMARRIED,NO,College Degree,NO,YES,Bar,Heterosexual,NO,NEGATIVE
+27,MARRIED,YES,Junior High School,YES,NO,Bar,Homosexual,NO,POSITIVE
+36,Widowed,YES,Senior High School,YES,NO,Internet,Homosexual,NO,POSITIVE
+60,Divorced,NO,Primary School,NO,NO,Others,Heterosexual,NO,NEGATIVE
+70,MARRIED,YES,College Degree,NO,NO,Public Bath,Bisexual,YES,NEGATIVE
+52,UNMARRIED,NO,College Degree,YES,NO,Public Bath,Homosexual,YES,POSITIVE
+19,UNMARRIED,YES,Illiteracy,NO,NO,Internet,Heterosexual,NO,POSITIVE
+47,MARRIED,NO,College Degree,NO,YES,Bar,Bisexual,NO,NEGATIVE
+34,UNMARRIED,YES,Senior High School,YES,YES,Park,Homosexual,YES,NEGATIVE
+25,MARRIED,NO,Junior High School,NO,NO,Public Bath,Heterosexual,YES,POSITIVE
+46,Cohabiting,YES,Senior High School,YES,NO,Internet,Homosexual,NO,POSITIVE
+22,UNMARRIED,No,College Degree,YES,No,Bar,Heterosexual,Yes,Positive
+20,UNMARRIED,No,College Degree,NO,Yes,None,Heterosexual,No,Negative
+23,Married,Yes,College Degree,NO,Yes,None,Bisexual,No,Negative
+24,Married,No,College Degree,YES,No,Park,Heterosexual,Yes,Positive
+18,UNMARRIED,Yes,Senior High School,YES,No,Internet,Heterosexual,Yes,Positive
+15,UNMARRIED,No,Junior High School,NO,No,Public bath,Bisexual,No,Negative
+15,UNMARRIED,YES,Junior High School,NO,NO,Public Bath,Heterosexual,NO,NEGATIVE
+15,UNMARRIED,NO,Junior High School,YES,NO,Public Bath,Bisexual,NO,POSITIVE
+15,UNMARRIED,YES,Junior High School,YES,YES,Internet,Heterosexual,YES,POSITIVE
+15,UNMARRIED,NO,Junior High School,NO,NO,Others,Heterosexual,NO,NEGATIVE
+15,UNMARRIED,NO,Illiteracy,NO,NO,Others,Homosexual,NO,POSITIVE
+15,UNMARRIED,YES,Junior High School,NO,YES,Bar,Heterosexual,YES,NEGATIVE
+15,UNMARRIED,NO,Junior High School,YES,YES,Internet,Bisexual,YES,NEGATIVE
+15,UNMARRIED,YES,Junior High School,NO,NO,Public Bath,Heterosexual,YES,POSITIVE
+15,UNMARRIED,NO,Junior High School,NO,NO,Others,Bisexual,NO,POSITIVE
+15,UNMARRIED,YES,Junior High School,YES,YES,Public Bath,Homosexual,YES,NEGATIVE
+15,UNMARRIED,NO,Junior High School,NO,NO,Public Bath,Homosexual,NO,NEGATIVE
+15,UNMARRIED,YES,Illiteracy,YES,NO,Others,Bisexual,YES,POSITIVE
+15,UNMARRIED,NO,Illiteracy,NO,YES,Internet,Heterosexual,YES,NEGATIVE
+15,UNMARRIED,YES,Junior High School,YES,NO,Bar,Bisexual,NO,NEGATIVE
+15,UNMARRIED,NO,Illiteracy,NO,YES,Others,Bisexual,YES,POSITIVE
+15,UNMARRIED,YES,Junior High School,YES,NO,Park,Homosexual,NO,NEGATIVE
+15,UNMARRIED,NO,Junior High School,NO,NO,Others,Bisexual,NO,NEGATIVE
+15,UNMARRIED,YES,Illiteracy,NO,NO,Park,Heterosexual,YES,POSITIVE
+23,UNMARRIED,NO,Illiteracy,NO,YES,Internet,Heterosexual,NO,POSITIVE
+70,MARRIED,NO,College Degree,YES,YES,Others,Heterosexual,NO,NEGATIVE
+44,MARRIED,YES,College Degree,NO,YES,Others,Homosexual,NO,NEGATIVE
+23,UNMARRIED,NO,College Degree,NO,NO,Internet,Homosexual,YES,POSITIVE
+13,UNMARRIED,NO,Primary School,NO,NO,Bar,Bisexual,YES,NEGATIVE
+19,UNMARRIED,YES,Senior High School,NO,YES,Internet,Heterosexual,NO,POSITIVE
+25,MARRIED,NO,Junior High School,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+75,MARRIED,NO,College Degree,NO,YES,Others,Heterosexual,YES,NEGATIVE
+50,Widowed,NO,Illiteracy,NO,NO,Park,Heterosexual,YES,NEGATIVE
+76,Divorced,NO,College Degree,YES,YES,Others,Heterosexual,YES,NEGATIVE
+24,UNMARRIED,YES,College Degree,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+18,UNMARRIED,NO,Senior High School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+34,MARRIED,NO,College Degree,NO,NO,Park,Homosexual,NO,POSITIVE
+45,UNMARRIED,NO,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+45,UNMARRIED,NO,Junior High School,NO,YES,Internet,Hetersexual,NO,POSITIVE
+56,Divorced,YES,Senior High School,YES,YES,Park,Bisexual,YES,NEGATIVE
+27,Divorced,NO,Junior High School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+29,UNMARRIED,NO,Senior High School,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+40,Widowed,YES,College Degree,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+78,MARRIED,NO,College Degree,NO,YES,Others,Heterosexual,YES,NEGATIVE
+16,UNMARRIED,NO,Junior High School,NO,NO,Internet,Homosexual,NO,POSITIVE
+56,MARRIED,NO,College Degree,YES,YES,Public Bath,Bisexual,YES,NEGATIVE
+26,Divorced,YES,College Degree,NO,NO,Internet,Homosexual,YES,POSITIVE
+37,UNMARRIED,NO,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+12,UNMARRIED,NO,Primary School,NO,NO,Internet,Homosexual,NO,POSITIVE
+12,UNMARRIED,NO,Primary School,NO,NO,Bar,Heterosexual,NO,NEGATIVE
+67,MARRIED,YES,College Degree,NO,NO,Internet,Bisexual,NO,POSITIVE
+37,Divorced,NO,Junior High School,NO,NO,Internet,Bisexual,NO,POSITIVE
+21,UNMARRIED,NO,Senior High School,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+30,Cohabiting,NO,Junior High School,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+78,Widowed,YES,College Degree,YES,YES,Internet,Bisexual,NO,POSITIVE
+23,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,YES,POSITIVE
+34,UNMARRIED,YES,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+71,MARRIED,NO,Senior High School,NO,YES,Park,Heterosexual,YES,NEGATIVE
+25,Cohabiting,NO,College Degree,NO,YES,Internet,Homosexual,NO,POSITIVE
+34,MARRIED,YES,College Degree,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+16,UNMARRIED,NO,Junior High School,NO,YES,Internet,Bisexual,NO,POSITIVE
+80,Widowed,NO,College Degree,NO,YES,Public Bath,Heterosexual,YES,NEGATIVE
+35,MARRIED,YES,Senior High School,NO,NO,Internet,Homosexual,YES,POSITIVE
+45,MARRIED,YES,Junior High School,YES,YES,Park,Bisexual,YES,NEGATIVE
+24,UNMARRIED,NO,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+45,UNMARRIED,NO,Primary School,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+68,MARRIED,NO,Senior High School,YES,NO,Park,Heterosexual,YES,NEGATIVE
+30,Cohabiting,YES,Junior High School,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+23,MARRIED,NO,Junior High School,NO,NO,Bar,Bisexual,NO,POSITIVE
+50,UNMARRIED,NO,Senior High School,YES,YES,Public Bath,Heterosexual,NO,NEGATIVE
+17,UNMARRIED,NO,Junior High School,NO,NO,Bar,Heterosexual,NO,POSITIVE
+18,UNMARRIED,YES,Senior High School,NO,NO,Internet,Homosexual,NO,POSITIVE
+25,MARRIED,YES,College Degree,NO,YES,Bar,Heterosexual,NO,NEGATIVE
+70,UNMARRIED,YES,Illiteracy,YES,NO,Internet,Bisexual,NO,POSITIVE
+70,UNMARRIED,YES,Illiteracy,YES,NO,Internet,Bisexual,YES,NEGATIVE
+38,MARRIED,NO,College Degree,NO,NO,Park,Heterosexual,NO,NEGATIVE
+46,MARRIED,NO,College Degree,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+42,Cohabiting,YES,Senior High School,YES,NO,Internet,Heterosexual,YES,NEGATIVE
+56,Widowed,NO,College Degree,NO,NO,Bar,Bisexual,NO,NEGATIVE
+78,Divorced,YES,College Degree,YES,NO,Internet,Heterosexual,NO,POSITIVE
+45,MARRIED,NO,Primary School,NO,NO,Bar,Heterosexual,NO,NEGATIVE
+41,UNMARRIED,YES,College Degree,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+34,UNMARRIED,NO,College Degree,NO,YES,Bar,Bisexual,NO,NEGATIVE
+34,UNMARRIED,NO,College Degree,NO,NO,Internet,Bisexual,NO,POSITIVE
+19,MARRIED,NO,Senior High School,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+67,UNMARRIED,NO,College Degree,NO,YES,Bar,Heterosexual,YES,NEGATIVE
+28,Divorced,YES,College Degree,YES,NO,Internet,Heterosexual,NO,POSITIVE
+45,Divorced,NO,Senior High School,NO,YES,Park,Bisexual,NO,NEGATIVE
+80,Widowed,NO,Illiteracy,NO,NO,Park,Hetersexual,YES,NEGATIVE
+15,UNMARRIED,NO,Primary School,NO,YES,Bar,Homosexual,NO,NEGATIVE
+16,UNMARRIED,NO,Junior High School,NO,YES,Public Bath,Homosexual,NO,POSITIVE
+64,Divorced,NO,College Degree,YES,YES,Bar,Heterosexual,YES,NEGATIVE
+69,MARRIED,YES,Senior High School,YES,NO,Internet,Heterosexual,NO,POSITIVE
+44,UNMARRIED,NO,College Degree,NO,NO,Internet,Homosexual,NO,POSITIVE
+56,MARRIED,YES,Primary School,YES,YES,Others,Heterosexual,YES,NEGATIVE
+73,Widowed,YES,Illiteracy,NO,NO,Others,Bisexual,YES,NEGATIVE
+14,UNMARRIED,YES,Illiteracy,NO,NO,Park,Heterosexual,NO,POSITIVE
+25,MARRIED,NO,College Degree,YES,YES,Internet,Heterosexual,YES,NEGATIVE
+29,MARRIED,NO,College Degree,YES,NO,Internet,Heterosexual,NO,POSITIVE
+49,MARRIED,NO,Junior High School,NO,YES,Public Bath,Homosexual,NO,POSITIVE
+56,UNMARRIED,YES,Primary School,YES,NO,Bar,Heterosexual,YES,NEGATIVE
+43,Divorced,YES,Illiteracy,YES,NO,Park,Bisexual,NO,POSITIVE
+47,MARRIED,NO,Junior High School,NO,NO,Others,Homosexual,YES,NEGATIVE
+47,UNMARRIED,NO,College Degree,NO,NO,Internet,Homosexual,NO,POSITIVE
+38,UNMARRIED,YES,Senior High School,YES,YES,Public Bath,Heterosexual,YES,NEGATIVE
+39,UNMARRIED,NO,Primary School,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+20,UNMARRIED,YES,Illiteracy,NO,NO,Park,Heterosexual,NO,POSITIVE
+22,MARRIED,YES,College Degree,NO,NO,Internet,Heterosexual,YES,NEGATIVE
+30,UNMARRIED,NO,College Degree,NO,NO,Internet,Heterosexual,NO,POSITIVE
+36,UNMARRIED,YES,Senior High School,YES,YES,Bar,Homosexual,YES,NEGATIVE
+31,Cohabiting,YES,Junior High School,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+13,UNMARRIED,NO,Primary School,NO,NO,Internet,Bisexual,NO,POSITIVE
+32,Divorced,YES,Primary School,YES,NO,Bar,Bisexual,YES,NEGATIVE
+21,MARRIED,NO,College Degree,YES,NO,Internet,Heterosexual,NO,POSITIVE
+27,MARRIED,YES,College Degree,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+79,Widowed,NO,Illiteracy,NO,NO,Others,Heterosexual,NO,NEGATIVE
+17,UNMARRIED,YES,Junior High School,NO,NO,Park,Heterosexual,NO,POSITIVE
+56,UNMARRIED,NO,Senior High School,YES,NO,Bar,Homosexual,YES,NEGATIVE
+39,UNMARRIED,YES,Primary School,YES,YES,Internet,Heterosexual,YES,NEGATIVE
+40,Divorced,YES,Senior High School,NO,NO,Public Bath,Heterosexual,YES,POSITIVE
+21,Cohabiting,NO,Junior High School,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+18,UNMARRIED,NO,Junior High School,NO,NO,Internet,Homosexual,NO,POSITIVE
+57,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,NO,POSITIVE
+34,MARRIED,NO,College Degree,YES,YES,Park,Heterosexual,YES,NEGATIVE
+45,Divorced,NO,Junior High School,NO,NO,Internet,Bisexual,NO,POSITIVE
+45,Divorced,NO,Junior High School,NO,YES,Bar,Heterosexual,YES,NEGATIVE
+70,MARRIED,YES,Illiteracy,NO,NO,Park,Heterosexual,YES,NEGATIVE
+51,UNMARRIED,NO,Primary School,YES,NO,Internet,Heterosexual,NO,POSITIVE
+16,UNMARRIED,NO,Junior High School,NO,NO,Bar,Homosexual,YES,NEGATIVE
+34,MARRIED,NO,Senior High School,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+38,MARRIED,YES,Senior High School,NO,YES,Internet,Bisexual,NO,POSITIVE
+29,UNMARRIED,NO,College Degree,YES,YES,Internet,Bisexual,YES,NEGATIVE
+21,MARRIED,NO,Senior High School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+28,UNMARRIED,YES,Junior High School,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+36,Cohabiting,NO,College Degree,NO,NO,Internet,Heterosexual,YES,POSITIVE
+23,UNMARRIED,YES,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+34,UNMARRIED,NO,College Degree,YES,YES,Park,Homosexual,YES,NEGATIVE
+38,Divorced,YES,Primary School,NO,NO,Bar,Heterosexual,NO,POSITIVE
+24,MARRIED,NO,College Degree,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+14,UNMARRIED,NO,Illiteracy,NO,NO,Park,Heterosexual,NO,NEGATIVE
+80,Widowed,NO,Primary School,NO,NO,Others,Heterosexual,YES,NEGATIVE
+25,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,NO,POSITIVE
+25,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,YES,POSITIVE
+27,UNMARRIED,YES,Senior High School,NO,YES,Internet,Heterosexual,YES,POSITIVE
+38,MARRIED,YES,College Degree,YES,NO,Bar,Heterosexual,NO,POSITIVE
+40,MARRIED,NO,College Degree,NO,NO,Internet,Bisexual,NO,POSITIVE
+45,Widowed,YES,Primary School,NO,NO,Internet,Homosexual,NO,POSITIVE
+41,MARRIED,YES,Senior High School,NO,NO,Others,Heterosexual,YES,NEGATIVE
+48,MARRIED,YES,College Degree,YES,YES,Internet,Heterosexual,NO,POSITIVE
+51,UNMARRIED,NO,Primary School,NO,NO,Bar,Heterosexual,NO,POSITIVE
+34,Widowed,YES,Senior High School,YES,YES,Park,Bisexual,YES,NEGATIVE
+47,UNMARRIED,YES,College Degree,YES,NO,Internet,Homosexual,YES,POSITIVE
+38,MARRIED,NO,Senior High School,YES,NO,Public Bath,Heterosexual,NO,POSITIVE
+39,UNMARRIED,YES,College Degree,NO,YES,Public Bath,Heterosexual,YES,NEGATIVE
+20,UNMARRIED,NO,Illiteracy,NO,NO,Park,Heterosexual,NO,POSITIVE
+22,Widowed,NO,College Degree,NO,YES,Internet,Heterosexual,YES,NEGATIVE
+30,DIvorced,NO,Illiteracy,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+36,UNMARRIED,NO,Senior High School,YES,NO,Bar,Homosexual,YES,NEGATIVE
+31,DIvorced,YES,Primary School,NO,NO,Public Bath,BIsexual,YES,POSITIVE
+13,UNMARRIED,NO,Primary School,NO,NO,None,Heterosexual,NO,NEGATIVE
+32,MARRIED,NO,Senior High School,YES,NO,Bar,Homosexual,YES,NEGATIVE
+21,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,YES,NEGATIVE
+27,MARRIED,NO,College Degree,YES,NO,Bar,Heterosexual,YES,NEGATIVE
+79,Widowed,NO,Illiteracy,YES,NO,Others,Heterosexual,YES,NEGATIVE
+17,UNMARRIED,YES,Junior High School,YES,NO,Park,Heterosexual,YES,POSITIVE
+56,UNMARRIED,NO,Senior High School,NO,NO,Bar,Homosexual,YES,NEGATIVE
+39,UNMARRIED,NO,Primary School,YES,NO,Internet,Heterosexual,YES,NEGATIVE
+40,Divorced,YES,Senior High School,YES,YES,Public Bath,Heterosexual,NO,POSITIVE
+21,Cohabiting,YES,Junior High School,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+18,UNMARRIED,YES,Junior High School,YES,NO,Internet,Homosexual,YES,POSITIVE
+57,MARRIED,YES,College Degree,NO,NO,Internet,Heterosexual,NO,POSITIVE
+34,MARRIED,NO,College Degree,YES,YES,Park,Heterosexual,YES,NEGATIVE
+25,MARRIED,YES,College Degree,YES,YES,Bar,Heterosexual,NO,NEGATIVE
+70,UNMARRIED,NO,Illiteracy,NO,NO,Public Bath,Bisexual,YES,POSITIVE
+70,UNMARRIED,YES,Illiteracy,NO,YES,Public Bath,Bisexual,YES,POSITIVE
+38,MARRIED,YES,College Degree,NO,YES,Park,Heterosexual,YES,NEGATIVE
+46,MARRIED,YES,College Degree,NO,NO,Public Bath,Heterosexual,YES,POSITIVE
+42,Cohabiting,YES,Senior High School,YES,NO,Internet,Heterosexual,NO,NEGATIVE
+56,Widowed,NO,College Degree,NO,NO,Bar,Bisexual,NO,NEGATIVE
+78,Divorced,NO,College Degree,YES,YES,Internet,Heterosexual,YES,POSITIVE
+45,MARRIED,YES,Primary School,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+41,UNMARRIED,NO,College Degree,NO,NO,Public Bath,Homosexual,YES,POSITIVE
+34,UNMARRIED,NO,College Degree,NO,NO,Bar,Bisexual,NO,NEGATIVE
+34,UNMARRIED,NO,College Degree,YES,YES,Internet,Bisexual,YES,POSITIVE
+19,MARRIED,YES,Senior High School,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+67,UNMARRIED,NO,College Degree,YES,NO,Bar,Heterosexual,YES,NEGATIVE
+28,Divorced,YES,College Degree,NO,YES,Internet,Heterosexual,NO,POSITIVE
+45,Divorced,YES,Senior High School,YES,NO,Park,Bisexual,YES,NEGATIVE
+33,MARRIED,YES,College Degree,NO,YES,Internet,Heterosexual,NO,POSITIVE
+29,Divorced,NO,Senior High School,NO,YES,Bar,Homosexual,NO,POSITIVE
+59,Divorced,NO,Junior High School,YES,YES,None,Heterosexual,NO,NEGATIVE
+30,UNMARRIED,NO,College Degree,YES,NO,Park,Bisexual,NO,NEGATIVE
+35,MARRIED,NO,Illiteracy,YES,YES,Public Bath,Heterosexual,YES,NEGATIVE
+71,MARRIED,YES,Senior High School,NO,YES,Others,Heterosexual,NO,POSITIVE
+62,Divorced,YES,Illiteracy,NO,NO,Others,Homosexual,YES,NEGATIVE
+54,UNMARRIED,NO,College Dregree,NO,YES,None,Heterosexual,YES,NEGATIVE
+44,MARRIED,YES,Primary School,YES,NO,Public Bath,Homosexual,NO,POSITIVE
+52,Widowed,YES,College Dregree,NO,YES,Public Bath,Bisexual,NO,NEGATIVE
+67,UNMARRIED,NO,Primary School,NO,NO,Others,Bisexual,NO,NEGATIVE
+41,Divorced,NO,Junior High School,YES,NO,None,Bisexual,NO,NEGATIVE
+24,MARRIED,YES,Senior High School,YES,NO,Internet,Homosexual,YES,NEGATIVE
+40,MARRIED,YES,College Dregree,YES,NO,Internet,Homosexual,YES,POSITIVE
+41,Divorced,YES,Senior High School,NO,YES,Park,Heterosexual,NO,NEGATIVE
+61,UNMARRIED,NO,Illiteracy,NO,NO,Public Bath,Homosexual,YES,NEGATIVE
+58,Widowed,NO,College Dregree,NO,YES,Others,Heterosexual,NO,NEGATIVE
+53,Widowed,NO,Junior High School,NO,NO,None,Bisexual,NO,NEGATIVE
+27,Widowed,YES,College Dregree,YES,NO,Internet,Homosexual,NO,POSITIVE
+62,UNMARRIED,YES,Illiteracy,YES,YES,Internet,Bisexual,YES,POSITIVE
+50,UNMARRIED,NO,Primary School,YES,YES,None,Heterosexual,NO,POSITIVE
+24,UNMARRIED,YES,Illiteracy,YES,NO,Internet,Heterosexual,YES,POSITIVE
+75,MARRIED,NO,Senior High School,YES,NO,Park,Bisexual,NO,POSITIVE
+23,UNMARRIED,YES,Illiteracy,YES,YES,Bar,Heterosexual,NO,POSITIVE
+60,UNMARRIED,YES,Senior High School,YES,YES,None,Heterosexual,NO,POSITIVE
+65,Divorced,NO,Senior High School,NO,NO,Bar,Heterosexual,NO,POSITIVE
+25,UNMARRIED,YES,Illiteracy,NO,NO,Public Bath,Bisexual,YES,POSITIVE
+26,Divorced,NO,Illiteracy,NO,YES,Bar,Homosexual,NO,NEGATIVE
+54,Divorced,NO,Illiteracy,NO,YES,Internet,Homosexual,NO,NEGATIVE
+54,Divorced,NO,Senior High School,YES,NO,Public Bath,Heterosexual,NO,NEGATIVE
+33,Widowed,YES,Illiteracy,NO,NO,None,Homosexual,YES,POSITIVE
+26,UNMARRIED,YES,College Dregree,NO,YES,Park,Bisexual,YES,POSITIVE
+75,MARRIED,YES,Illiteracy,NO,NO,Bar,Heterosexual,YES,POSITIVE
+59,UNMARRIED,YES,Illiteracy,NO,NO,Bar,Bisexual,NO,POSITIVE
+66,Widowed,YES,Illiteracy,NO,YES,Others,Heterosexual,YES,NEGATIVE
+27,Divorced,NO,College Degree,NO,YES,Bar,Bisexual,NO,NEGATIVE
+56,Widowed,YES,College Degree,NO,YES,Others,Bisexual,YES,POSITIVE
+66,UNMARRIED,NO,Senior High School,NO,NO,Internet,Heterosexual,YES,NEGATIVE
+47,Divorced,NO,College Degree,NO,NO,Internet,Bisexual,NO,NEGATIVE
+29,MARRIED,YES,Junior High School,YES,YES,Bar,Homosexual,NO,NEGATIVE
+69,Divorced,NO,College Degree,NO,YES,Park,Homosexual,NO,NEGATIVE
+54,Widowed,YES,College Dregree,NO,YES,Park,Heterosexual,NO,NEGATIVE
+32,UNMARRIED,NO,Junior High School,YES,YES,Park,Homosexual,YES,POSITIVE
+47,Widowed,YES,College Degree,NO,YES,Park,Heterosexual,YES,POSITIVE
+70,MARRIED,NO,College Degree,NO,YES,Internet,Heterosexual,YES,NEGATIVE
+55,UNMARRIED,NO,College Degree,YES,NO,Others,Homosexual,NO,NEGATIVE
+23,Divorced,YES,Illiteracy,NO,YES,Public Bath,Homosexual,YES,POSITIVE
+65,Widowed,YES,Primary School,NO,NO,Others,Heterosexual,NO,NEGATIVE
+34,MARRIED,NO,Primary School,NO,YES,Bar,Bisexual,NO,POSITIVE
+22,UNMARRIED,NO,College Dregree,YES,NO,Park,Heterosexual,NO,NEGATIVE
+67,Divorced,YES,College Degree,YES,NO,Public Bath,Homosexual,YES,NEGATIVE
+31,Widowed,NO,College Dregree,YES,NO,Public Bath,Bisexual,YES,POSITIVE
+56,Divorced,YES,College Dregree,NO,NO,Bar,Bisexual,YES,POSITIVE
+62,Widowed,YES,Senior High School,YES,NO,Public Bath,Heterosexual,NO,POSITIVE
+36,UNMARRIED,NO,College Dregree,NO,NO,Public Bath,Homosexual,NO,NEGATIVE
+59,UNMARRIED,YES,College Degree,NO,NO,Public Bath,Homosexual,NO,POSITIVE
+41,MARRIED,YES,Senior High School,NO,YES,None,Bisexual,YES,POSITIVE
+65,MARRIED,NO,Primary School,NO,YES,Park,Bisexual,YES,POSITIVE
+59,UNMARRIED,NO,College Dregree,YES,YES,Park,Homosexual,NO,NEGATIVE
+24,MARRIED,NO,College Degree,NO,YES,Bar,Heterosexual,YES,POSITIVE
+23,MARRIED,YES,College Dregree,YES,YES,Park,Bisexual,NO,NEGATIVE
+18,UNMARRIED,YES,Junior High School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+30,MARRIED,NO,College Degree,YES,YES,Bar,Heterosexual,YES,NEGATIVE
+45,Divorced,NO,Senior High School,NO,YES,Public Bath,Homosexual,NO,NEGATIVE
+45,Divorced,NO,Senior High School,NO,NO,Internet,Homosexual,No,POSITIVE
+34,Cohabiting,YES,Junior High School,YES,YES,Internet,Heterosexual,NO,POSITIVE
+34,Cohabiting,YES,Junior High School,YES,YES,Internet,Heterosexual,YES,NEGATIVE
+56,MARRIED,NO,College Degree,NO,NO,Public Bath,Homosexual,NO,NEGATIVE
+76,Widowed,YES,Illiteracy,NO,NO,Park,Heterosexual,YES,NEGATIVE
+76,Widowed,YES,Illiteracy,NO,NO,Park,Heterosexual,NO,POSITIVE
+67,MARRIED,NO,Primary School,YES,NO,Internet,Bisexual,NO,POSITIVE
+23,UNMARRIED,YES,College Degree,YES,YES,Internet,Heterosexual,NO,POSITIVE
+24,UNMARRIED,YES,College Degree,YES,YES,Public Bath,Homosexual,YES,NEGATIVE
+41,MARRIED,NO,Junior High School,NO,YES,Bar,Heterosexual,NO,NEGATIVE
+56,Widowed,NO,College Degree,NO,YES,Park,Homosexual,NO,NEGATIVE
+50,Widowed,YES,College Degree,NO,NO,Public Bath,Bisexual,NO,POSITIVE
+31,MARRIED,NO,Junior High School,NO,NO,Public Bath,Homosexual,YES,NEGATIVE
+30,MARRIED,YES,Junior High School,YES,NO,Public Bath,Homosexual,NO,POSITIVE
+25,UNMARRIED,NO,College Degree,NO,NO,Internet,Heterosexual,NO,POSITIVE
+56,Widowed,YES,Illiteracy,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+34,UNMARRIED,NO,College Degree,NO,NO,Bar,Heterosexual,NO,NEGATIVE
+67,Divorced,YES,College Degree,YES,YES,Park,Heterosexual,YES,NEGATIVE
+34,Widowed,YES,Illiteracy,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+45,Divorced,NO,College Degree,NO,YES,Park,Homosexual,NO,NEGATIVE
+56,MARRIED,YES,Senior High School,YES,NO,Public Bath,Heterosexual,YES,NEGATIVE
+19,UNMARRIED,NO,Junior High School,YES,NO,Internet,Heterosexual,NO,POSITIVE
+25,MARRIED,YES,Senior High School,NO,YES,Internet,Homosexual,NO,POSITIVE
+42,UNMARRIED,NO,Junior High School,NO,YES,Park,Bisexual,NO,NEGATIVE
+36,Cohabiting,YES,Senior High School,YES,YES,Internet,Homosexual,NO,POSITIVE
+36,Cohabiting,YES,Senior High School,YES,YES,Internet,Homosexual,YES,NEGATIVE
+49,MARRIED,NO,Junior High School,NO,YES,Bar,Heterosexual,NO,NEGATIVE
+50,UNMARRIED,NO,Junior High School,YES,NO,Public Bath,Heterosexual,YES,POSITIVE
+23,UNMARRIED,YES,Primary School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+46,Widowed,NO,College Degree,YES,YES,Others,Homosexual,NO,NEGATIVE
+38,Divorced,NO,College Degree,YES,NO,Bar,Bisexual,NO,NEGATIVE
+31,MARRIED,YES,Illiteracy,NO,NO,Public Bath,Heterosexual,NO,POSITIVE
+51,UNMARRIED,NO,Junior High School,YES,YES,Internet,Heterosexual,NO,POSITIVE
+30,UNMARRIED,YES,Senior High School,YES,YES,Park,Heterosexual,YES,NEGATIVE
+19,UNMARRIED,NO,Junior High School,NO,NO,Bar,Homosexual,NO,NEGATIVE
+19,UNMARRIED,NO,Junior High School,NO,NO,Public Bath,Homosexual,YES,POSITIVE
+37,MARRIED,YES,Senior High School,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+27,UNMARRIED,NO,Primary School,NO,YES,Bar,Homosexual,NO,NEGATIVE
+45,MARRIED,YES,Primary School,YES,YES,Public Bath,Bisexual,YES,NEGATIVE
+57,Widowed,YES,Senior High School,YES,NO,Internet,Bisexual,NO,POSITIVE
+51,MARRIED,NO,College Degree,NO,NO,Public Bath,Homosexual,YES,POSITIVE
+60,Divorced,NO,Primary School,YES,YES,Park,Heterosexual,NO,NEGATIVE
+34,MARRIED,YES,Senior High School,YES,YES,Others,Heterosexual,YES,NEGATIVE
+70,Widowed,NO,College Degree,NO,NO,Internet,Heterosexual,NO,POSITIVE
+54,Divorced,YES,Primary School,YES,NO,Public Bath,Bisexual,NO,POSITIVE
+27,UNMARRIED,NO,Illiteracy,NO,NO,Bar,Heterosexual,NO,NEGATIVE
+45,UNMARRIED,YES,Illiteracy,NO,NO,Park,Homosexual,YES,NEGATIVE
+61,MARRIED,YES,Primary School,NO,YES,Public Bath,Heterosexual,NO,POSITIVE
+33,UNMARRIED,NO,Junior High School,NO,NO,Internet,Homosexual,YES,POSITIVE
+56,Divorced,YES,Junior High School,YES,NO,Park,Heterosexual,YES,NEGATIVE
+19,Cohabiting,NO,Primary School,YES,NO,Others,Heterosexual,NO,NEGATIVE
+41,Divorced,YES,Senior High School,YES,YES,Internet,Bisexual,NO,POSITIVE
+27,UNMARRIED,NO,College Degree,NO,YES,Public Bath,Heterosexual,YES,POSITIVE
+45,MARRIED,NO,Senior High School,NO,YES,Bar,Homosexual,NO,NEGATIVE
+67,Widowed,YES,College Degree,YES,YES,Others,Heterosexual,YES,NEGATIVE
+31,MARRIED,NO,Senior High School,NO,NO,Internet,Heterosexual,YES,POSITIVE
+78,Divorced,YES,Junior High School,YES,NO,Public Bath,Heterosexual,NO,POSITIVE
+52,MARRIED,NO,Illiteracy,NO,NO,Bar,Bisexual,NO,NEGATIVE
+69,UNMARRIED,YES,Illiteracy,YES,NO,Park,Heterosexual,NO,NEGATIVE
+23,Cohabiting,YES,Primary School,YES,NO,Public Bath,Homosexual,NO,POSITIVE
+47,MARRIED,NO,College Degree,NO,NO,Internet,Homosexual,YES,POSITIVE
+32,MARRIED,NO,Junior High School,NO,NO,Bar,Heterosexual,NO,NEGATIVE
+21,UNMARRIED,YES,Senior High School,YES,YES,Others,Homosexual,YES,NEGATIVE
+50,Divorced,YES,Junior High School,NO,NO,Park,Heterosexual,NO,POSITIVE
+40,Widowed,NO,Senior High School,YES,NO,Internet,Heterosexual,NO,POSITIVE
+40,Widowed,NO,Senior High School,NO,NO,Park,Heterosexual,NO,NEGATIVE
+67,MARRIED,YES,Senior High School,YES,YES,Public Bath,Bisexual,YES,NEGATIVE
+33,UNMARRIED,YES,Junior High School,NO,NO,Park,Homosexual,NO,POSITIVE
+29,MARRIED,NO,Primary School,YES,NO,Internet,Heterosexual,YES,POSITIVE
+55,Divorced,YES,Illiteracy,NO,NO,Bar,Heterosexual,YES,NEGATIVE
+78,Widowed,NO,College Degree,NO,NO,Others,Heterosexual,NO,NEGATIVE
+43,MARRIED,NO,College Degree,NO,NO,Internet,Bisexual,NO,POSITIVE
+21,UNMARRIED,YES,Senior High School,NO,NO,Public Bath,Homosexual,YES,POSITIVE
+42,Cohabiting,NO,Primary School,YES,NO,Bar,Heterosexual,NO,NEGATIVE
+35,MARRIED,YES,Junior High School,NO,NO,Others,Heterosexual,YES,NEGATIVE
+56,Widowed,NO,Senior High School,NO,NO,Internet,Bisexual,NO,POSITIVE
+70,Divorced,NO,College Degree,NO,YES,Public Bath,Homosexual,YES,POSITIVE
+68,MARRIED,YES,Primary School,YES,YES,Bar,Bisexual,YES,NEGATIVE
+19,UNMARRIED,YES,Senior High School,YES,YES,Others,Heterosexual,YES,NEGATIVE
+23,UNMARRIED,NO,College Degree,NO,NO,Internet,Heterosexual,NO,POSITIVE
+41,Divorced,YES,Illiteracy,YES,NO,Park,Homosexual,NO,POSITIVE
+33,Cohabiting,YES,Illiteracy,YES,NO,Bar,Heterosexual,YES,NEGATIVE
+51,MARRIED,NO,College Degree,NO,YES,Others,Bisexual,NO,NEGATIVE
+67,UNMARRIED,YES,Junior High School,NO,NO,Internet,Heterosexual,NO,POSITIVE
+18,UNMARRIED,NO,Junior High School,NO,NO,Internet,Homosexual,NO,POSITIVE
+54,MARRIED,YES,Senior High School,YES,YES,Others,Heterosexual,YES,NEGATIVE
+40,UNMARRIED,NO,College Degree,NO,YES,Bar,Heterosexual,NO,NEGATIVE
+27,MARRIED,YES,Junior High School,YES,NO,Bar,Homosexual,NO,POSITIVE
+36,Widowed,YES,Senior High School,YES,NO,Internet,Homosexual,NO,POSITIVE
+60,Divorced,NO,Primary School,NO,NO,Others,Heterosexual,NO,NEGATIVE
+70,MARRIED,YES,College Degree,NO,NO,Public Bath,Bisexual,YES,NEGATIVE
+52,UNMARRIED,NO,College Degree,YES,NO,Public Bath,Homosexual,YES,POSITIVE
+19,UNMARRIED,YES,Illiteracy,NO,NO,Internet,Heterosexual,NO,POSITIVE
+47,MARRIED,NO,College Degree,NO,YES,Bar,Bisexual,NO,NEGATIVE
+34,UNMARRIED,YES,Senior High School,YES,YES,Park,Homosexual,YES,NEGATIVE
+25,MARRIED,NO,Junior High School,NO,NO,Public Bath,Heterosexual,YES,POSITIVE
+46,Cohabiting,YES,Senior High School,YES,NO,Internet,Homosexual,NO,POSITIVE
