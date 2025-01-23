@@ -62,19 +62,22 @@ https://github.com/Atharv714/nationalhackathon/assets/142321494/c13cde81-8ab2-49
 
 Roadmap for NeuroWellness AI
 
-Q1 2025 - Initial Development and Expansion
+# Q1 2025 - Initial Development and Expansion
 AI-Powered Diagnostics: Enhance AI psychiatrist capabilities by integrating additional models for personalized mental health support.
 Facial Expression & Voice Recognition Integration: Improve emotion detection algorithms and refine the accuracy of facial and voice recognition.
 Blockchain Integration: Ensure that all data is encrypted and stored securely for privacy with blockchain-backed solutions.
-Q2 2025 - Pilot and Community Engagement
+
+# Q2 2025 - Pilot and Community Engagement
 Launch Pilot Programs: Begin testing the platform with a select group of users to collect feedback and refine AI models.
 VHelp Community Launch: Expand the VHelp feature to facilitate users connecting with nearby mental health professionals.
 Health Token System: Implement the health token system, allowing users to earn rewards for helping others.
-Q3 2025 - Expansion and Scaling
+
+# Q3 2025 - Expansion and Scaling
 Smartwatch Integration: Incorporate wearable tech into the platform to monitor real-time health metrics (heart rate, sleep patterns, etc.) and trigger emergency alerts.
 Large-Scale Deployment: Expand access to a broader user base, focusing on underserved regions for mental health support.
 AI Diagnosis Enhancements: Further improve AI-driven diagnosis features, offering more accurate prescriptions and emergency recommendations.
-Q4 2025 - Long-Term Vision
+
+# Q4 2025 - Long-Term Vision
 Cross-National Partnerships: Collaborate with global organizations to increase the reach of NeuroWellness AI to international markets.
 Full Integration with Healthcare Providers: Build relationships with medical institutions for deeper integration of the platform into existing healthcare systems.
 Continuous AI Learning: Implement continuous learning techniques to ensure that the AI system adapts to new data and insights, improving over time.
