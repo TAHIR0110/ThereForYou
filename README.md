@@ -25,7 +25,7 @@
 - Reward Mechanism: Similar to Part 2, individuals who respond to safety alerts and assist those in danger are rewarded with HealthTokens.
 - Link to safety system => https://vhelp.onrender.com/
 - App link could not be shared because of security reasons
-
+- 
 ## Videos:
 ### PART 1:
 https://github.com/Atharv714/nationalhackathon/assets/142321494/f8e68f17-ec9b-46f5-94c1-f09af9d5afa3
